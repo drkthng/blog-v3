@@ -17,9 +17,9 @@ permalink: "/jekyll-admin/"
 <a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/typewriter-illustration-vector_756501.htm'>Designed by Freepik</a>
 
 ## What is jekyll-admin
-[Jekyll admin](https://github.com/jekyll/jekyll-admin){: target="_blank"} is a Ruby gem for Jekyll blogs whcih provides a local user interface for editing posts and pages. By the time of writing this article, the version is 0.1.0.
+[Jekyll admin](https://github.com/jekyll/jekyll-admin){: target="_blank"} is a Ruby gem for Jekyll whcih provides a local user interface for editing posts and pages. By the time of writing this article, the version is 0.1.0.
 
-If you have ever used WordPress then editing post was a little easier because of the UI. You can drop in images, html code blocks, you see the changes right away with preview option etc.. WYSIWYG kind of editors are good for a non-coder because he/she knows what will be the output.
+If you have [ever used WordPress](/why-jekyll-over-wordpress/){: target="_blank"} then you may have noticed that editing post was a little easier than Jekyll because of the user interface(UI). You can drop in images, html code blocks, you see the changes right away with preview option etc.. WYSIWYG kind of editors are good for a non-coder because he/she knows what will be the output.
 
 Jekyll is trying to fill that gap of not having a UI by jekyll-admin. But it has a long way to go. With the current build, it is nowhere close to usable.
 
@@ -28,7 +28,7 @@ Jekyll was considered to be not so non-coder friendly. Because to take advantage
 
 I think Jekyll is trying to solve this problem. But to run Jekyll locally you need to install Ruby and then install Jekyll. For a non-coder, even this process could be tough. Making things simpler is important to reach more people. That's what worked out for Apple in the case of iPhones.
 
-In [my vodeos]({{site.youtube}}){: target="_blank"}, so far I haven't discussed anything about CLI. If you do not want use Jekyll locally then you can make use of these videos and use an online editor like [Prose](http://prose.io) to edit your posts and pages.
+In [my videos]({{site.youtube}}){: target="_blank"}, so far I haven't discussed anything about CLI. If you do not want use Jekyll locally then you can make use of these videos and use an online editor like [Prose](http://prose.io) to edit your posts and pages.
 
 But if you are already using Jekyll locally and pushing changes to remote host(Github Pages or another service) then this could be a better option to edit your posts.
 
@@ -80,7 +80,7 @@ Here you can write the post, style it, insert images, links, blockquotes etc.. Y
 
 ![jekyll admin preview post page](/images/jekyll-admin-preview-post.png){: .noborder}
 
-Along with posts and pages, you can also edit collections. I wasn't expecting it to detect the collection I had but it did which is really cool. Static files will have all the images, css, and js. Configuration is nothing but your _config.yml file. 
+Along with posts and pages, you can also edit collections. I wasn't expecting it to detect the collection I had but it did which is really cool. Here **static files** will have all the images, css, and js. The **configuration** option is nothing but your _config.yml file. 
 
 
 ## What is missing?
