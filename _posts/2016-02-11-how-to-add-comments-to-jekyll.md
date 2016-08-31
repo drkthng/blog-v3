@@ -1,5 +1,5 @@
 ---
-title: 3 Ways to Get Feedback on Your Jekyll Blog
+title: 3 Ways to Get Feedback on Your Jekyll Blog through comments
 desc: Jekyll comments is not available by default. Unlike WordPress, We have to integrate third party commenting tools like disqus, facebook, google to Jekyll blog.
 keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
