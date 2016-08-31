@@ -70,4 +70,4 @@ authors:
         github: https://github.com/sharu725/
         gravatar: 'https://s.gravatar.com/avatar/73c67b9ce8685bfb9e906a5865c0aef8?s=80'
 
-gems: [jekyll-paginate, jemoji, jekyll-seo-tag]
+gems: [jekyll-paginate, jemoji, jekyll-seo-tag, jekyll-admin]
