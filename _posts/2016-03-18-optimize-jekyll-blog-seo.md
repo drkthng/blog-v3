@@ -116,7 +116,7 @@ Using page excerpt as a description is not a good idea because you may have some
 Also, it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And akdescription is not considered for ranking but only to show snippets in the search results.
 
 {% highlight html %}{% raw %}
-<meta itemprop="description" name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 {% endraw %}{% endhighlight %}
 
 So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated in the meta tag.
