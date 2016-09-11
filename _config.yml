@@ -1,3 +1,9 @@
+#News
+news: true
+news-link: '/jekyll-themes/yudish/'
+news-image: '/thumbs/yudish-jekyll-theme-teaser.png'
+news-alt: Yudish Jekyll Theme
+
 # Site settings
 title: WebJeda | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
@@ -24,11 +30,6 @@ copyrights-owner: WebJeda # Copyright in the footer
 feedly: http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fblog.webjeda.com%2Ffeed.xml
 
 super-proxy: https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1zdW5iZWFtLTEyNzkxN3IVCxIIQXBpUXVlcnkYgICAgLzLigoM&format=json
-
-# New query https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1zdW5iZWFtLTEyNzkxN3IVCxIIQXBpUXVlcnkYgICAgLzLigoM&format=json
-
-# Query https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1zdW5iZWFtLTEyNzkxN3IVCxIIQXBpUXVlcnkYgICAgLzLigoM&format=json
-##API https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A113414384&start-date=2014-04-01&end-date=today&metrics=ga%3Apageviews&dimensions=ga%3ApagePath&sort=-ga%3Apageviews
 
 # Build settings
 #baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
