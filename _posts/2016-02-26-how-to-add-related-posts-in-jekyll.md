@@ -76,9 +76,7 @@ Also make sure you do the following change while loading posts.
 {% highlight html %}
 {% raw %}{% for post in site.posts %}{% endraw %} 
 {% endhighlight %}
-
 should be changed to 
-
 {% highlight html %}
 {% raw %}{% for post in paginator.posts %}{% endraw %}
 {% endhighlight %}
