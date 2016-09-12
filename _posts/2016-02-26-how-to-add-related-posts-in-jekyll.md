@@ -1,5 +1,5 @@
 ---
-title: How to Add Related or Previous Next Post Link in Jekyll?
+title: How to Add Related or Previous Next Pagination in Jekyll?
 desc: Giving a link to next and previous posts at the bottom of the article helps to keep your users hooked to checkout more content on your website. If they like your current article, then there is a good chance that they would like to browse more articles. Add a related post or add next previous link to Jekyll posts using this method. 
 keywords: add related post jekyll, jekyll related post, next previous post jekyll
 author: sharathdt
@@ -61,6 +61,27 @@ Here is the code I have used on my [chess blog](https://kidschessworld.com){:tar
 The output should look like the screenshot below
 
 ![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg){: .full}
+
+When you implementing this, make sure you tell Jekyll to paginate your posts by changing the parameters in **_config.yml**.
+
+{% highlight html %}
+paginate: 6
+paginate_path: /page:num/
+{% endhighlight %}
+This way you are asking Jekyll to load 6 posts per page. First 6 will be loaded in the index(or wherever you call it), next 6 will be loaded in the url ``/page-1/``, next 6 in ``/page-2/`` and so on.
+
+
+Also make sure you do the following change while loading posts.
+
+{% highlight html %}
+{% raw %}{% for post in site.posts %}{% endraw %} 
+{% endhighlight %}
+
+should be changed to 
+
+{% highlight html %}
+{% raw %}{% for post in paginator.posts %}{% endraw %}
+{% endhighlight %}
 
 {% include adsense-inside-post.html %}
 
