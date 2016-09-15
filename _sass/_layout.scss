@@ -1,5 +1,5 @@
 .news {
-    margin: 2em 0 2em 0;
+    margin: 2em auto;
     text-align: center;
     max-width: 90%;
 }
@@ -283,7 +283,6 @@ a {
 
 .preface {
     width: 100%;
-    margin: 0 auto 0 auto;
     @include media-query($on-palm) {
         margin: 0 auto;
     }
@@ -303,10 +302,36 @@ a {
         }
 }
 
-.foomage {
-    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z);
-    background-size: contain;
-    height: 4px;
+//color-bar
+.cor-head {
+    width: 12.5%;
+    height: 5px;
+    display: inline-block;
     margin: 1em 0 1em 0;
-    
+
 }
+.colr-1{
+background-color: #3498db;
+}
+.colr-2{
+background-color: #f1c40f;
+}
+.colr-3{
+background-color: #2ecc71;
+}
+.colr-4{
+background-color: #e74c3c;
+}
+.colr-5{
+background-color: #9b59b6;
+}
+.colr-6{
+background-color: #1abc9c;
+}
+.colr-7{
+background-color: #e67e22;
+}
+.colr-8{
+background-color: #34495e;
+}
+

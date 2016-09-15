@@ -245,7 +245,7 @@ disqus_shortname: webjeda-sample
 {% endhighlight %} 
 
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/etvHFmVCvj8?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/etvHFmVCvj8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 
