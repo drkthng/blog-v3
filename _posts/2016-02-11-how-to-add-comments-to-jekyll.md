@@ -14,7 +14,7 @@ permalink: /jekyll-comments/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
-When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them the option to express!?
+When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, there are some who may not agree with you and there are few who may have a different opinion all together. But how will you know what their opinion is if you don't give them the option to express!?
 {: .clear}
 
 <div class="clear"></div>   
@@ -243,6 +243,10 @@ disqus_shortname: webjeda-sample
 .
 
 {% endhighlight %} 
+
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/etvHFmVCvj8?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 
 ## 2. Google Plus
