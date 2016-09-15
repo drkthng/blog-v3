@@ -29,7 +29,7 @@ All the stuff on my blog is free. All I ask my users is to whitelist my domain. 
 
 I also accept donations.
 
-<a target="_blank" class="donate" href="https://www.paypal.me/webjeda">Donate</a>
+<a target="_blank" class="donate" href="https://www.paypal.me/webjeda/1">Donate</a>
 <style>
 a.donate:hover{
    color: #fff;
