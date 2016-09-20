@@ -1,8 +1,8 @@
 #News
 news: true
-news-link: '/jekyll-themes/yudish/'
-news-image: '/thumbs/yudish-jekyll-theme-teaser.png'
-news-alt: Yudish Jekyll Theme
+news-link: 'http://eepurl.com/bZdvSP'
+news-image: '/thumbs/subscribe-theme.png'
+news-alt: New Jekyll Themes
 
 # Site settings
 title: WebJeda | A modern web development blog

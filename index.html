@@ -4,7 +4,7 @@ layout: default
 
 {% if site.news == true %}
    <div class="news">
-    <a href="{{site.news-link}}" target="_blank">
+    <a onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="{{site.news-link}}" target="_blank">
         <img class="news-img" src="{{site.news-image}}" alt="{{site.news-alt}}">
     </a>
 </div>
