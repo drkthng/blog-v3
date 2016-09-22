@@ -107,18 +107,9 @@ a.donate:hover{
 }
 </style>
 
-Most of these articles are also in video format. Check out my <a target="_blank" href="{{site.youtube}}" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
 
-**There are a number of ways to reach out to me. Here are a few.**
+**There are a number of ways to reach out to me, a few are in the footer.**
 
-For facebook notification on a new article you can like our <a target="_blank" href="{{site.facebook}}" ><i class="fa fa-facebook-square"></i>&nbsp;facebook page</a>.
-
-We are also on <a target="_blank" href="{{site.twitter}}" ><i class="fa fa-twitter-square"></i>&nbsp;twitter!</a> and I heard Google Plus is no more but I still have a <a target="_blank" href="https://plus.google.com/b/111361987929035019038/?pageId=111361987929035019038" ><i class="fa fa-google-plus-square"></i>&nbsp;Google Page</a>
-
-Please feel free to ping me on whatsapp if you want a quick response
-**Whatsapp:** <a href="tel:+91 890 447 5972">+91 890 447 5972</a>
-
-If you are looking for a modern, fast-loading, visually appealing website, then [contact](http://price.webjeda.com/#contact) me. You can choose from the available [packages](http://price.webjeda.com/) (final price depends on the requirement).
 
 **Disclaimer:** This website is under constant modification. If you find something isn't right then feel free to report.
 
