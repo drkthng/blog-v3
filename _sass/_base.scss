@@ -50,7 +50,7 @@ p {
     
     @include media-query($on-palm) {
         font-size: 1.1em;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         line-height: 1.5;
         margin-bottom: 1em;
         text-shadow: none;
