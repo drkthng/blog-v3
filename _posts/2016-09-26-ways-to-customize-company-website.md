@@ -18,7 +18,9 @@ permalink: "/customize-company-website/"
 
 <a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/designer-working-on-his-computer_824360.htm'>Designed by Freepik</a>
 
-Every company purchases a domain and creates a website with the hope of showcasing their image on the web. For a company to showcase who they are and what services they provide, they must understand their brand meaning first. After a company finds out what differentiates them from all the rest, it is time to look to expressing that in web design. There may be different ways to design a website, but the best way to design a website is to be unique. 
+Every company purchases a domain and creates a website with the hope of showcasing their image on the web. For a company to showcase who they are and what services they provide, they must understand their brand meaning first. 
+
+After a company finds out what differentiates them from all the rest, it is time to look to expressing that in web design. There may be different ways to design a website, but the best way to design a website is to be unique. 
 
 A website developer must understand that he needs to create a website for a company that compliments the companies overall brand and at the same time, the website must be very user-friendly. Read below the 14 ways to customize your company website.
 

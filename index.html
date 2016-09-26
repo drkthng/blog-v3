@@ -70,7 +70,7 @@ layout: default
 
                 <div class="card-footer">
                     <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
-                     <div itemprop="keywords" class="home-tag" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}">{{ post.tags | first | strip }}</div>
+                     <div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div>
                     <p itemprop="description" class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
                </div>
            
