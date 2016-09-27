@@ -109,7 +109,7 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 
 Here is a video on how Jekyll works
 
-<iframe class="video" src="https://www.youtube.com/embed/gI-FcrkDveA" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/gI-FcrkDveA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 
