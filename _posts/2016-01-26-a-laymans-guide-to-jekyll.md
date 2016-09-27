@@ -70,8 +70,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 </pre>
 
 
-![Jekyll folder structure]({{ site.url }}/images/jekyll-folder-structure.jpg)
-{: .right .small}
+
 Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below points. You should be able to see the following files and folders.
 
 
@@ -107,6 +106,12 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 <h3>6. css, images, js:</h3> You can create folders and name them as per your needs. These are some of the common folders that we use to keep stylesheets, images, and JavaScript files.
 
 <h3>7. Other folders:</h3> There can be other folders as well. The one used for plugins is ```_plugins```. You can add any arbitrary folder. You can name it anything, say ```project``` and keep a html or a markdown file inside it. These files will get a URL ```http://yourdomain/project/filename.html```. You can change that to ``http://yourdomain/project/filename/`` by using [permalinks](https://jekyllrb.com/docs/permalinks/){:target="_blank"}.
+
+Here is a video on how Jekyll works
+
+<iframe class="video" src="https://www.youtube.com/embed/gI-FcrkDveA" frameborder="0" allowfullscreen></iframe>
+
+
 
 I hope that gives you an insight into the structure of Jekyll files and folders. It looked strange for me in the beginning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of a lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where to look for. In this blog, I have written a [lot of things](/archive/) I did using Jekyll. Make use of it.
 

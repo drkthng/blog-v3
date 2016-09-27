@@ -13,3 +13,4 @@ Advanced SEO - Disqus sync local - use staticman
 
 {% endraw %}
 
+{{ site.pages[0].title }}
