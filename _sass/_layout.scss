@@ -270,52 +270,6 @@ a {
 }
 
 
-.home-tag {
-  position: absolute;
-  right: -5px; top: -5px;
-  z-index: 1;
-  overflow: hidden;
-  width: 75px; height: 75px;
-  text-align: right;
-}
-.home-tag span {
-  font-size: 10px;
-  font-weight: bold;
-  color: #FFF;
-  text-transform: capitalize;
-  text-align: center;
-  line-height: 20px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  width: 100px;
-  display: block;
-  background: #3498db;
-  background: linear-gradient(#3498DB 0%, #3498db 100%);
-  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 19px; right: -21px;
-}
-.home-tag span::before {
-  content: "";
-  position: absolute; left: 0px; top: 100%;
-  z-index: -1;
-  border-left: 3px solid #3498db;
-  border-right: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid #3498db;
-}
-.home-tag span::after {
-  content: "";
-  position: absolute; right: 0px; top: 100%;
-  z-index: -1;
-  border-left: 3px solid transparent;
-  border-right: 3px solid #3498db;
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid #3498db;
-}
-
-
-
 
 
 .preface {
@@ -372,3 +326,33 @@ background-color: #e67e22;
 background-color: #34495e;
 }
 
+
+.form-post {
+    background: #349add;
+    border-radius: 4px;
+    padding: 4em;
+    text-align: center;
+    @include media-query($on-palm) {
+        padding: 2em;
+    }    
+}
+
+.form-post #mce-EMAIL{
+    width:350px;
+    padding:10px;
+    border-radius: 2px;
+    @include media-query($on-palm) {
+        width: inherit;
+    }      
+}
+
+.form-post .sub-arrow {
+    background: none;
+    border: 0;
+    color: #333;
+    font-size: 120%;
+    cursor: pointer;
+    position: relative;
+    left: -30px;
+    top: 2px;
+}

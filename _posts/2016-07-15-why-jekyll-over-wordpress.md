@@ -42,7 +42,17 @@ Read: [How to create a Jekyll blog](/create-jekyll-blog/){: target="_blank"}
 ## 5. Design restrictions
 This is actually the key reason to migrate from WordPress. WordPress has a lot of themes and plugins to choose from but if you want to change something, say you want the logo to be some pixels down then it becomes a hassle.
 
----
+## 6. Distractions
+If you have ever visited a WordPress site (I bet you've) you will see something like this happening.
+
+![WordPress Distractions](/images/why-I-hate-wordpress.png){: .noborder}
+
+Since WordPress is easy and there are gazillion plugins available to do this kind of pop-ups, top-bars and other ridiculous bars, you shouldn't be usign all of them at once.
+
+May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. If they like it then they definitely will subscribe.
+
+These days with all those spam mails cluttering my inbox, I don't like to give up my email. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing.
+
 <p></p>
 
 **What's so good about Jekyll?**
