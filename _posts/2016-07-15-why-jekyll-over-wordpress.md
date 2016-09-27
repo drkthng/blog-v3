@@ -51,7 +51,7 @@ Since WordPress is easy to use and there are gazillion plugins available to do t
 
 May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. If they like it then they definitely will subscribe.
 
-These days with all those spam mails cluttering my inbox, I don't like to give up my email. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing.
+These days with all those spam mails cluttering my inbox, I don't like to give up my email. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing. I ended up subscribing to his blog without any such intervensions.
 
 <p></p>
 
