@@ -80,27 +80,33 @@ Here you can write the post, style it, insert images, links, blockquotes etc.. Y
 
 ![jekyll admin preview post page](/images/jekyll-admin-preview-post.png){: .noborder}
 
-Along with posts and pages, you can also edit collections. I wasn't expecting it to detect the collection I had but it did which is really cool. Here **static files** will have all the images, css, and js. The **configuration** option is nothing but your _config.yml file. 
+Along with posts and pages, you can also edit collections. I wasn't expecting it to detect the collection I had but it did which is really cool. The **static files** directory will have all the images, css, and js. The **configuration** option is nothing but your _config.yml file. 
 
 
 ## What is missing?
 
 ### Autosave
-I tried to edit this post using jekyll-admin but I got frustrated because when I navigate to some other tab and come back to the particular post I was editing, all that I wrote is gone. This happened twice and I gave up. An auto-save option is a must at least for me to use it.
+I tried to edit this post using jekyll-admin but I got frustrated because when I navigate to some other tab and come back to the particular post I was editing, all I wrote is gone! This happened twice and I gave up. An auto-save option is a must at least for me to use it.
 
 ### Drag and drop image upload
-This feature will appear sooner or later. Currently, when I click on image icon it shows markdown code where I can enter the image path. What I want is an option where I can drop an image from anywhere on my local drive to the post and it should automatically upload it to my project's images folder and insert it in the post.
+This feature will appear sooner or later. Currently, when I click on image icon it shows markdown code where I can enter the image path. But what I(and most users) want is an option where I can drop an image from anywhere on my local drive to the post and it should automatically upload it to images folder of my project and insert it into the post.
+
+I like how WordPress handles image upload. You can drag and drop an image anywhere inside a post and it will take care of the rest.
 
 ### Multiple options in metadata
 Currently, metadata is an empty field where we have to fill 'title', 'layout' and other front matter and give it a value. It would be great if Jekyll can offer some basic metadata options by default which can be edited.
 
+
+
 ### Default metadata for new posts and pages
 Here metadata is nothing but front matter. I have so many of them. Title, description, layout, tags, permalink etc.. So I want to see an option where I can choose the default metadata values that automatically appear in every new post.
 
-### Code insert option
-I don't know why they haven't included code insert option. I want an option similar to the one in StackOverflow. Maybe in the future versions, it can have an options to let me choose which language I want to highlight.
+It would be even better if it can detect the metadata fields from previous posts!
 
-Another thing I want to mention is that when I upload a static file, say an image, it says that it was uploaded successfully but when I check inside the project the file is nowhere to be found. This probably is a bug which will be fixed in the coming release.
+### Code insert option
+I don't know why they haven't included code insert option. I want an option similar to the one in StackOverflow. Maybe in the future versions, it can have an options to let me choose which programming language I want to highlight.
+
+One last thing I want to mention is that when I upload a static file, say an image, it says that it was uploaded successfully but when I check inside the project the file is nowhere to be found. This probably is a bug which will be fixed in the coming release.
 
 ## Conclusion
-Even though the initial version lacks so many things, I would appreciate this initiative from Jekyll team. Contributors will definitely improve its performance and usability. This will help me to provide my clients with a local GUI to edit their pages instead of doing it online.
+Even though the initial version lacks so many things, I really appreciate the initiative from Jekyll team. Contributors will definitely improve its performance and usability. I will definitely suggest my clients to use it once it is stable and can be run from a desktop icon instead of a command line!
