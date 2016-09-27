@@ -104,7 +104,7 @@ There has been a major increase in white spaces this year. White spaces have bee
 
 The white space design not only produces a modern web design look, but it also benefits the web page by being lighter in overall size. The more elements that have been removed on the page, the lower the HTTP rate on the website, and the lighter the web page is. 
 
-# Quick After Design Check
+## Quick After Design Check
 After a website has been perfectly designed, its time to put it to the test. Clean coding is one of the most important parts of a website. Websites that look great visually and have great code internally are the most valued. 
 
 Running a quick test with The [**W3C Markup Validation**](https://validator.w3.org/){: rel="nofollow" target="_blank"} is one of the top things to do to ensure that your website script doesn’t have any errors. Even if it does, it provides the lines where the errors are located and small tips on how to fix those errors. It is best for a web page to have a minimum to 0 errors on a website script.

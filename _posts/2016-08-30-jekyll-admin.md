@@ -17,7 +17,7 @@ permalink: "/jekyll-admin/"
 <a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/typewriter-illustration-vector_756501.htm'>Designed by Freepik</a>
 
 ## What is jekyll-admin
-[Jekyll admin](https://github.com/jekyll/jekyll-admin){: target="_blank"} is a Ruby gem for Jekyll whcih provides a local user interface for editing posts and pages. By the time of writing this article, the version is 0.1.0.
+[Jekyll admin](https://github.com/jekyll/jekyll-admin){: target="_blank"} is a Ruby gem for Jekyll which provides a local user interface for editing posts and pages. By the time of writing this article, the version is 0.1.0.
 
 If you have [ever used WordPress](/why-jekyll-over-wordpress/){: target="_blank"} then you may have noticed that editing post was a little easier than Jekyll because of the user interface(UI). You can drop in images, html code blocks, you see the changes right away with preview option etc.. WYSIWYG kind of editors are good for a non-coder because he/she knows what will be the output.
 
