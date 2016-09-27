@@ -53,6 +53,7 @@ May be it is good with most users but when I see a pop-up I will look for the cl
 
 These days with all those spam mails cluttering my inbox, I don't like to give up my email. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing. I ended up subscribing to his blog without any such intervensions.
 
+
 <p></p>
 
 **What's so good about Jekyll?**
@@ -84,6 +85,9 @@ Usually, Jekyll is hosted on github pages but you can also host it on any other 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [themes section](/jekyll-themes/){: target="_blank"} in my blog. Now you should visit the theme's homepage. Here is a video guide.
 
 <iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Use a theme that suits your needs
+Jekyll has a pretty large community now. There are people creating awesome themes. I suggest going through [Jekyll Themes](http://jekyllthemes.org){: target="_blank" rel="nofollow"} or my [Theme section](/jekyll-themes/){: target="_blank"} and find the one that suits your needs.
 
 ## Understand baseurl
 Now you have the theme file hosted on some URL. You can make changes to this by editing most of the files in the repository. But you should be careful while editing **_config.yml**. Many beginners edit the ``baseurl:`` to something and get 404 error!
