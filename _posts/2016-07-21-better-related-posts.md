@@ -17,7 +17,9 @@ permalink: /jekyll-related-posts/
 
 
 ## Why should we use Related Posts?
-If you have a lot of great content on your website and you want it easier for your users to see it then you should use **related posts**. A viewer landing on one of your posts may be hungry for a similar type of information. You should have an easy way for them to browse around. This is where related posts come into the picture. Related posts are those articles which are related to the current article. They are usually at the bottom of the post. 
+If you have a lot of great content on your website and you want it easier for your users to see it then you should use **related posts**. 
+
+A viewer landing on one of your posts may be hungry for a similar type of information. You should have an easy way for them to browse around. This is where related posts come into the picture. Related posts are those articles which are related to the current article. They are usually at the bottom of the post. 
 
 Related posts help you decrease the bounce rate(percentage of visitors to a particular website who navigate away from the site after viewing only one page).
 {: .g}
