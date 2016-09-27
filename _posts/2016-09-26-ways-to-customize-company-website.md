@@ -50,7 +50,9 @@ When writing content on your website blog, always make sure that things that nee
 ## Responsive Web Design
 With the vast majority using mobile devices, a web developer has no choice but to make a web design compatible for all devices. The main goal of every web developer is to provide an easy and user-friendly experience on the web page.  This means, that all mobile website users must have a great experience opening up a website through a mobile device. 
 
-A responsive design will auto resize for all screen portions and this makes it easy for the regular mobile user to see the site. An easy way for a web designer to make a website responsive is doing a Media Query rule in CSS. This rule will allow the web designer to apply a certain screen size/width-height to every breakpoint of a device size. This is one of the greatest ways and the easiest ways to make a web page responsive. Media queries are easy to understand in CSS and provide a great solution to making a webpage mobile friendly. 
+A responsive design will auto resize for all screen portions and this makes it easy for the regular mobile user to see the site. An easy way for a web designer to make a website responsive is doing a Media Query rule in CSS. This rule will allow the web designer to apply a certain screen size/width-height to every breakpoint of a device size. 
+
+This is one of the greatest ways and the easiest ways to make a web page responsive. Media queries are easy to understand in CSS and provide a great solution to making a webpage mobile friendly. 
 
 ## Custom Div Tags
 Customizing the DIV tags inside a web page script will allow for cleaner code and enable you to make easy changes to your website script.  To elaborate a little further, a custom div tag means to add custom names to the classes. This way, an element can be named ‘blogbox’ if it is a box that contains blogs inside. This a very neat and organized way to do things.
