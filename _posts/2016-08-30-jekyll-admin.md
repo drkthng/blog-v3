@@ -101,7 +101,7 @@ Currently, metadata is an empty field where we have to fill 'title', 'layout' an
 ### Default metadata for new posts and pages
 Here metadata is nothing but front matter. I have so many of them. Title, description, layout, tags, permalink etc.. So I want to see an option where I can choose the default metadata values that automatically appear in every new post.
 
-It would be even better if it can detect the metadata fields from previous posts!
+Even better if it can detect the metadata fields from previous posts!
 
 ### Code insert option
 I don't know why they haven't included code insert option. I want an option similar to the one in StackOverflow. Maybe in the future versions, it can have an options to let me choose which programming language I want to highlight.
