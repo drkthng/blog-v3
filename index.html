@@ -70,7 +70,7 @@ layout: default
 
                 <div class="card-footer">
                     <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
-                     <div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div>
+                     <a href="/tags/#{{ post.tags | first | slugize }}"><div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div></a>
                     <p itemprop="description" class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
                </div>
            
