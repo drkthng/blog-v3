@@ -96,11 +96,10 @@
 
 .page-content {
     margin: 0 auto; 
-    max-width: 66%;
+    max-width: 760px;
     
     @include media-query($on-palm){
         margin: 0 auto; 
-        max-width: 96% !important; 
     }
 }
 
@@ -330,10 +329,10 @@ background-color: #34495e;
 .form-post {
     background: #349add;
     border-radius: 4px;
-    padding: 4em;
+    padding: 1em 1em 3em 1em;
     text-align: center;
     @include media-query($on-palm) {
-        padding: 2em;
+        padding: 0.5em 0.5em 1em 0.5em;
     }    
 }
 
@@ -356,3 +355,9 @@ background-color: #34495e;
     left: -30px;
     top: 2px;
 }
+
+
+
+
+
+

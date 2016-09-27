@@ -49,12 +49,11 @@ p.right {
 
 
 .intro {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 300;
     color: $brand-color;
-    
     @include media-query($on-palm) {
-           font-size: 1.4em;
+           font-size: 1.2em;
  
     }
 }
@@ -757,7 +756,7 @@ a.btn {
 }
 
 .rel {
-    width: 200px;
+    width: 160px;
     display: inline-block;
     padding: 5px;
     opacity: 0.8;
@@ -765,7 +764,7 @@ a.btn {
         opacity: 1;    
     }
     @include media-query($on-palm) {
-        width: 135px;
+        width: 100%;
     }
 }
 
@@ -787,3 +786,9 @@ a.btn {
         display: none;
     }
 }
+
+
+
+
+
+

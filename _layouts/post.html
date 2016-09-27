@@ -30,9 +30,9 @@ window.onscroll = function()
             <div itemprop="articleBody" class="content" >
                     {{ content }}
             </div>
-            </article>	
+           
             <p><small class="edit">Something isn't right or missing in this article? <a  href="https://github.com/sharu725/blog-v3/edit/gh-pages/{{page.path}}" target="_blank">Edit and create a pull request</a></small></p>
-          
+           </article>	
            
             <br />
             {% include form-post.html %}
@@ -64,7 +64,7 @@ window.onscroll = function()
               
 
 {% if site.ad == 'no' %}{% else %}
- <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p class='g'>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine that you eat at a restaurant. Don't you pay for the meal?</p><p>I really appreciate if you could <strong>whitelist my website</strong>. Every resource on this website is free but ads are the only means I get paid for the hard work. I promise that they are <strong>not annoying</strong>.</p><div class='centered'><img alt='whitelist' src='/img/whitelist.png'></div>")},
+ <script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;font-family: 'wj';font-size: 1em; margin-top: 2em",a.innerHTML="<p class='g'>I notice that you're using an <strong>ad-blocker</strong>. That's cool, you want a fast and clean experience but let's imagine that you eat at a restaurant. Don't you pay for the meal? Please whitelist my domain.</p>")},
 2000)};</script>
  {% endif %}
               
