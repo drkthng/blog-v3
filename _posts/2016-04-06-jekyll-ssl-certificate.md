@@ -9,16 +9,11 @@ permalink: /jekyll-ssl/
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 ## Why should anyone use SSL?
 {: .clear}
 SSL (Secure Socket Layer) basically provides a secure connection between the client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
 
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

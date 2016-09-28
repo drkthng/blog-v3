@@ -5,16 +5,13 @@ Keywords: adsense on subdomain, adsense on Jekyll
 author: sharathdt
 tags: Adsense Jekyll 
 image: adsense-on-subdomain-adsense-on-Jekyll.jpg
+img-src: "http://www.freepik.com/free-vector/office-banners_800177.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /adsense-jekyll-subdomain/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 I had no hopes on this blog either. But I tried my best to deliver the content that somehow helps someone. Many of my posts are actually the problems I faced while figuring out stuff. I think it worked.
 {: .clear}

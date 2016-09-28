@@ -9,13 +9,9 @@ layout: post
 permalink: /github-upload/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
-{: .clear}
+
 
 <div class="clear"></div>   
 

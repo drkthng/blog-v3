@@ -9,15 +9,8 @@ layout: post
 permalink: /facebook-like-button-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
-{: .clear}
-
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

@@ -8,12 +8,5 @@ layout: post
 permalink: "/instant-search/"
 published: false
 ---
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<div class="clear"></div>
-
-<a target="_blank" rel="nofollow" href=''>Designed by Freepik</a>
 

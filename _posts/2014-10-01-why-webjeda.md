@@ -8,13 +8,9 @@ image: webjeda-logo-big.jpg
 layout: post
 ---
 
-<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 While I was working on network security, I was also learning HTML, CSS and a little JavaScript. I used to implement the code I wrote into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and fix the code rather copy pasting it. That was the beginning of my journey towards Github :octocat:.
-{: .clear}
+
 
 Initially, I had to design a website for my friend. It was supposed to have all the details of her company, contact information and frequent updating of tournament results. It is actually a website for on-line chess coaching business. I created a website using **Adobe Muse** - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called vlexo. It was good for a free service but it asked us to put a link back to their website on my website. And also, the response time was not so good. I was looking for an alternative since then.
 

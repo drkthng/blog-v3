@@ -9,15 +9,9 @@ layout: post
 permalink: /related-post-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 A long time ago I was writing 4 posts on WordPress installation tutorial. At the end of every article, I had to leave the next or previous article link. I used to do it manually in this way "To read my previous article on WordPress basics read [part 1](#)" and "for useful WordPress plugins read [part 3](#)" 
-{: .clear}
 
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

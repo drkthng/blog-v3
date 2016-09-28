@@ -49,9 +49,10 @@ p.right {
 
 
 .intro {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 300;
     color: $brand-color;
+    display: inline;
     @include media-query($on-palm) {
            font-size: 1.2em;
  
@@ -303,7 +304,7 @@ div#ga-pageviews {
 }
 
 .post-tags {
-        float: right;
+  
 }
 
 

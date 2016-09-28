@@ -5,15 +5,11 @@ keywords:
 author: sharathdt
 tags: Jekyll Web-Design SEO
 image: jekyll-speed-optimization.png
+img-src: "http://www.freepik.com/free-vector/pizzeria-fast-delivery-vector-cartoon_719308.htm"
+img-src-name: Design by Freepik
 permalink: /jekyll-speed/
 layout: post
 ---
-
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-<a href="http://www.freepik.com/free-vector/pizzeria-fast-delivery-vector-cartoon_719308.htm" rel="nofollow" target="_blank">Designed by Freepik</a>
 
 
 ## Why page speed is important?

@@ -4,17 +4,12 @@ desc: Implementing Jekyll categories is tricky without using any plugin. But I h
 keywords: 
 author: sharathdt
 image: jekyll-categories.png
+img-src: "http://www.freepik.com/free-vector/black-friday-tags-collection_821735.htm"
+img-src-name: Design by Freepik
 tags: Jekyll
 permalink: /jekyll-categories/
 layout: post
 ---
-
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<a target="_blank" rel="nofollow" href="http://www.freepik.com/free-vector/black-friday-tags-collection_821735.htm">Designed by Freepik</a>
 
 ## Why Jekyll Categories or Tags?
 Imagine you have a blog where you discuss very different things all together. Many bloggers post their personal experiences along with some professional posts. Curating information is very important to make users browse through your website with ease. What if New York Times had no categories like **Politics**, **Business**, **Tech** etc..? How hard would it be to track what happened to last night's football game? There should be a **Sports** category to make readers' life easy.

@@ -8,16 +8,11 @@ tags: Web-Design
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 In a way, it was easy to handle all the emails from one place but my inbox started to clutter with spam. It is a headache to cleanup inbox every time I was bombarded with spam emails.
-{: .clear}
+
 Read: [How to secure email address](/jekyll-contact-form/#step-5-secure-your-email){:target="_blank"}
 
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

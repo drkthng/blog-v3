@@ -9,13 +9,8 @@ layout: post
 permalink: /compress-html-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 ## Why do we have to minify HTML?
-{: .clear}
 Speed is a factor to rank high in Google search page. Minifying HTML can lead to an increase in speeds around 5% or more. Lighter the website easier to load even on a slow connection. Usually, html file consists of a lot of empty spaces, comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
 
 <div class="clear"></div>   

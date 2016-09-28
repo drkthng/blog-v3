@@ -9,13 +9,9 @@ layout: post
 permalink: /jekyll-sitemap/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 In one of my previous posts, I wrote on [How to create a Jekyll Blog](/create-jekyll-blog/){:target="_blank"}. If you have created a blog or if you already have a Jekyll blog then go through this tutorial to know how to create a sitemap automatically and manually in easy steps.
-{: .clear}
+
 
 * Do not remove this line (it will not be displayed) 
 {:toc}

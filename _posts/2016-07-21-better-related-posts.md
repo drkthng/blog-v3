@@ -4,14 +4,12 @@ desc: Jekyll related posts only shows recent posts by default. There is a better
 author: sharathdt
 tags: Jekyll
 image: jekyll-related-posts.png
+img-src: "http://www.freepik.com/free-vector/cartoon-dinosaurs-pack_874040.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /jekyll-related-posts/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 <a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/cartoon-dinosaurs-pack_874040.htm'>Designed by Freepik</a>
 

@@ -297,8 +297,7 @@ a {
     width: 12.5%;
     height: 5px;
     display: inline-block;
-    margin: 1em 0 1em 0;
-
+    font-size: 0;
 }
 .colr-1{
 background-color: #3498db;
@@ -361,3 +360,16 @@ background-color: #34495e;
 
 
 
+
+.post-head {
+        padding: 20px 0px;
+}
+
+.featured {
+    margin-right: 15px;
+}
+
+.color-bars-header {
+    font-size: 0;
+    margin: 22px 0;
+}

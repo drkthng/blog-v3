@@ -9,16 +9,10 @@ layout: post
 permalink: /new-page-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 ## Why should we create a new page on Jekyll?
-{: .clear}
 Jekyll themes do not come with all the bells and rings. You have to add whatever you want and take out whatever you do not need. I wanted a [contact page](/contact/){:rel='dofollow'}{:target="_blank"} for my blog and Jekyll did not have one by default. So I had to create one. Same thing with my [about](/about/){:rel='dofollow'}{:target="_blank"} page.
 
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

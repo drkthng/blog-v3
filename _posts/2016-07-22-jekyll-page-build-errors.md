@@ -4,16 +4,12 @@ desc: Page build errors are very common even for an experienced developer becaus
 author: sharathdt
 tags: Github-Pages Jekyll 
 image: jekyll-build-error-troubleshooting.png
+img-src: "http://www.freepik.com/free-vector/building-a-city-illustration-in-flat-design_899114.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /page-build-error/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/building-a-city-illustration-in-flat-design_899114.htm'>Designed by Freepik</a>
 
 This post is a summary of years of my experience using Jekyll and Github Pages. I have seen too many errors in these years. I had to face one just yesterday. I thought maybe others are facing this kind if issues as well. So I'm writing this article on how to deal with it.
 

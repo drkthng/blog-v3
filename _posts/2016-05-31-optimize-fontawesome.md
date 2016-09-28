@@ -9,13 +9,9 @@ permalink: /optimize-fontawesome/
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 Icons are an integral part of web designing. Gone are the days where individual icons were used like an image. Now it's the time of web fonts. Font awesome is one such web font. It is just like a font but in place of letters, we have icons! Dave Gandy created font awesome in 2012. Many designers use this instead of SVG images because font awesome makes designing easy. Almost all kinds of icons are available and they are infinitely scalable!
-{: .clear}
+
 
 <i class="fa fa-github-alt fa"></i>
 <i class="fa fa-github-alt fa-2x"></i>

@@ -9,13 +9,10 @@ layout: post
 permalink: /sync-files-folders-github/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 In my initial days of using Github, I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
-{: .clear}
+
 
 <div class="note">
     <h3>Update</h3>

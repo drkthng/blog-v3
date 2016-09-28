@@ -9,17 +9,13 @@ layout: post
 permalink: /author-box-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 When I wanted an author section for my blog [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"}, I thought of differnt ways to make it possible. I had multiple authors. Placing different code for different author was not practical.
 
 I can make a template, add it to every post manually and change author name, image and other details accordingly but it is also not practical if you have too many authors. 
 
 I like how WordPress handles different authors. All you need is to add user. But for Jekyll we still don't have that option. We are doing this the hard way.
-{: .clear}
+
 
 
 * Do not remove this line (it will not be displayed) 

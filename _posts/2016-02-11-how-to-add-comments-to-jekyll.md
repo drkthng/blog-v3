@@ -9,13 +9,9 @@ layout: post
 permalink: /jekyll-comments/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, there are some who may not agree with you and there are few who may have a different opinion all together. But how will you know what their opinion is if you don't give them the option to express!?
-{: .clear}
+
 
 <div class="clear"></div>   
 

@@ -4,15 +4,11 @@ desc: A robust search bar can be installed for a Jekyll site using many ways. Bu
 author: sharathdt
 tags: Jekyll Web-Design
 image: jekyll-search-option.png
+img-src: "http://www.freepik.com"
+img-src-name: Design by Freepik
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<a target="_blank" rel="nofollow" href='http://www.freepik.com'>Designed by Freepik</a>
 
 ## Why do we need a search option?
 Having a search bar in your Jekyll blog helps users to find the data using keywords. You may think that having an **archive** page would suffice but it is not enough. For example, if a user of my blog wants to know **how to setup CloudFlare with his website**. He will not find anything remotely close in my archive page but if he types **CloudFlare** in the search page then he will get [SSL certificate (https) for Jekyll](https://www.google.com/url?q=http://blog.webjeda.com/jekyll-ssl/){: target="_blank"} as the first result. I have mentioned the required steps inside that post.

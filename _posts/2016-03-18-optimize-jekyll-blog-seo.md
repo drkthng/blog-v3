@@ -5,16 +5,11 @@ keywords:
 author: sharathdt
 tags: SEO Jekyll
 image: Jekyll-SEO.png
+img-src: "http://www.freepik.com/free-vector/seo-analytics_764868.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /optimize-jekyll-seo/
 ---
-
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially, Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Nowadays basic SEO is already taken care of! Learn how to do further Jekyll SEO.
-{: .intro}
-<a class="clear" rel="nofollow" href="http://www.freepik.com/free-vector/seo-analytics_764868.htm">Designed by Freepik</a>
-
 
 
 ## Why SEO for Jekyll?

@@ -8,12 +8,6 @@ layout: post
 permalink: /jekyll-issues/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-
 
 When I began using Jekyll I was almost pulled away from it because of the errors I used to get. The problem was not Jekyll being meticulous about its code but me being a jerk not go through the documentations! Most of us are those guys who run a nuclear reactor without knowing how it works.
 

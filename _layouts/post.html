@@ -25,9 +25,14 @@ window.onscroll = function()
 
             <h1 itemprop="headline" id="post-title">{{ page.title }}</h1>
 
-            <div class="time-auth"><time class="by-line" >{{ page.date | date: '%Y %B %d' }}</time>&#44;&nbsp;&nbsp;<div class="post-view" id="ga-pageviews"></div></div> 
-            {% include post-tags.html %}	
+            <div class="time-auth">
+            <time class="by-line" >{{ page.date | date: '%Y %B %d' }}</time>&nbsp;&nbsp;&nbsp;
+            <span class="post-view" id="ga-pageviews"></span>&nbsp;&nbsp;&nbsp;
+            {% include post-tags.html %}
+            </div> 
+   	
             <div itemprop="articleBody" class="content" >
+                   {% include post-header.html %}
                     {{ content }}
             </div>
            

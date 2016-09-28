@@ -9,16 +9,11 @@ layout: post
 permalink: /jekyll-subscribe-form/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 ## Why use a subscribe form?
-{: .clear}
 Subscribe form is used basically to collect visitors' emails to provide them an update every time you post a new article. Also, a good way to get some initial traffic to a new post. 
 
-<div class="clear"></div>   
+   
 
 
 * Do not remove this line (it will not be displayed) 

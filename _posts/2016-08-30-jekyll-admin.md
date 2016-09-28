@@ -4,17 +4,11 @@ desc: Jekyll-admin is a GUI for editing Jekyll website or blog. It has its ups a
 author: sharathdt
 tags: Jekyll 
 image: jekyll-admin-tutorial.png
+img-src: "http://www.freepik.com/free-vector/typewriter-illustration-vector_756501.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: "/jekyll-admin/"
 ---
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<div class="clear"></div>
-
-<a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/typewriter-illustration-vector_756501.htm'>Designed by Freepik</a>
 
 ## What is jekyll-admin
 [Jekyll admin](https://github.com/jekyll/jekyll-admin){: target="_blank"} is a Ruby gem for Jekyll which provides a local user interface for editing posts and pages. By the time of writing this article, the version is 0.1.0.

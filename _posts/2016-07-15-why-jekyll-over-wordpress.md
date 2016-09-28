@@ -4,15 +4,11 @@ desc: Jekyll will be taking over a significant share among all the blogging plat
 author: sharathdt
 tags: Opinion Jekyll
 image: why-jekyll-over-wordpress.png
+img-src: "http://www.freepik.com/free-vector/fist-coming-out-of-cracked-ground_720279.htm"
+img-src-name: Design by Freepik
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/fist-coming-out-of-cracked-ground_720279.htm'>Designed by Freepik</a>
 
 A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blog is very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
 

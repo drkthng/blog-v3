@@ -4,16 +4,13 @@ desc: Jekyll collections is something that isn't understood by many. For example
 keywords: 
 author: sharathdt
 image: jekyll-collection.svg
+img-src: "http://www.freepik.com/free-vector/colorful-garget-icons_798073.htm"
+img-src-name: Design by Freepik
 tags: Jekyll
 permalink: /jekyll-collections/
 layout: post
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-<a class="clear" href="http://www.freepik.com/free-vector/colorful-garget-icons_798073.htm" rel="nofollow" target="_blank">Designed by Freepik</a>
 
 ## Why 'collections'?
 

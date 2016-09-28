@@ -6,17 +6,11 @@ guest:
     website: http://www.ntwdesigns.com 
 tags: Web-Design
 image: web-designer-tips.png
+img-src: "http://www.freepik.com/free-vector/designer-working-on-his-computer_824360.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: "/customize-company-website/"
 ---
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<div class="clear"></div>
-
-<a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/designer-working-on-his-computer_824360.htm'>Designed by Freepik</a>
 
 Every company purchases a domain and creates a website with the hope of showcasing their image on the web. For a company to showcase who they are and what services they provide, they must understand their brand meaning first. 
 

@@ -9,16 +9,9 @@ layout: post
 permalink: /jekyll-subscribe-feedburner/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
 ## What is RSS feed and why is it used?
-{: .clear}
 Initially, when I heard about RSS, I had no freaking clue what it was. I just knew that it doesn't have its own logo but using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. 
  
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 

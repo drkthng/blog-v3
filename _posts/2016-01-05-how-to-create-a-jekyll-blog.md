@@ -5,16 +5,12 @@ keywords: create Jekyll blog, blogging on Jekyll, github blogging
 author: sharathdt
 tags: Jekyll Web-Design
 image: create-jekyll-blog.jpg
+img-src: https://jekyllrb.com
+img-src-name: Design by Jekyll
 layout: post
 permalink: /create-jekyll-blog/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-
-<p class="clear">Image credit: <a  href="https://jekyllrb.com">Jekyll</a></p>  
 
 Jekyll is an open-source blogging platform written in Ruby by Tom Preston-Werner. Currently, Parker Moore is developing it. 
 

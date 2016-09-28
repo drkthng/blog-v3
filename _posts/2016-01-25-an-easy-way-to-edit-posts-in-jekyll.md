@@ -5,19 +5,15 @@ keywords: edit post in Jekyll, edit page in Jekyll, add post in Jekyll
 author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-edit-add-posts-in-jekyll.jpg
+img-src: "http://www.freepik.com/free-vector/office-banners_800177.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /edit-posts-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image was inside my local computer folder then there was no way uploading it. I did not know [**how to sync files and folders with Github**](/sync-files-folders-github/){:rel='dofollow'}{:target="_blank"}.
-{: .intro}
-
-<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 ## Unable to upload images to Github!
-{: .clear}
+
 <div class="note">
    <h3>Update</h3>
     <p>Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read <a target="_blank" href="/github-upload/" ><strong>Github Upload Option</strong></a></p> 

@@ -9,10 +9,6 @@ layout: post
 permalink: /jekyll-contact-form/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Which was - how to add a form to Jekyll website which is static?! Generally, the backbone of forms is the ```php``` code which takes the data and sends it to the defined email address. Jekyll being static cannot perform any server side execution. So we cannot use ``php`` for forms.
 {: .clear}

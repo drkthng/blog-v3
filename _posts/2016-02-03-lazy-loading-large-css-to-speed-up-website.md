@@ -5,15 +5,12 @@ keywords: defer css, lazy load css, load css at the end
 author: sharathdt
 tags: Web-Design Jekyll SEO 
 image: lazy-load-css-for-fast-website.jpg
+img-src: "http://www.freepik.com/free-vector/cartoon-animals_802878.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: /lazy-load-css/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
-<a target="_blank" rel="nofollow" href="http://www.freepik.com/free-vector/cartoon-animals_802878.htm">Designed by Freepik</a>
 
 ## Why lazy load css?
 {: .clear}

@@ -9,13 +9,8 @@ layout: post
 permalink: /share-buttons-jekyll/
 ---
 
-<img width="600"   alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
-{: .intro}
 
 ## Why share bar for Jekyll blog?
-{: .clear}
 If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have a share button. You have to copy the link from the address bar, go to your email account, type every single detail and send it. Same thing follows for sharing on social media websites.
 
 
