@@ -99,7 +99,7 @@
     max-width: 760px;
     
     @include media-query($on-palm){
-        margin: 0 auto; 
+        margin: 0 10px; 
     }
 }
 
