@@ -11,9 +11,6 @@ permalink: /jekyll-related-posts/
 ---
 
 
-<a target="_blank" rel="nofollow" href='http://www.freepik.com/free-vector/cartoon-dinosaurs-pack_874040.htm'>Designed by Freepik</a>
-
-
 ## Why should we use Related Posts?
 If you have a lot of great content on your website and you want it easier for your users to see it then you should use **related posts**. 
 

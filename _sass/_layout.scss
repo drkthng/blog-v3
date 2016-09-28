@@ -295,7 +295,7 @@ a {
 //color-bar
 .cor-head {
     width: 12.5%;
-    height: 5px;
+    height: 10px;
     display: inline-block;
     font-size: 0;
 }
@@ -371,5 +371,10 @@ background-color: #34495e;
 
 .color-bars-header {
     font-size: 0;
-    margin: 22px 0;
+}
+
+#site-footer {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 1em;
+    padding: 2em 0;
 }

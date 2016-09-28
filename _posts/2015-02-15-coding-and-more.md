@@ -10,7 +10,6 @@ layout: post
 
 
 ## Why teach Github Pages :octocat: ?
-{: .clear}
 While I was learning Github Pages, I used to go through YouTube videos. But there was not a single guy who teaches it without using Command Line Interface(CLI). When we run a command on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies, and a correct PATH variable etc. For starters, CLI is a hard nut to crack. So wanted to make it easier and decided not use CLI in my videos. Everything is done through GUI .
 
 

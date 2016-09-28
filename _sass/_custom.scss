@@ -273,10 +273,12 @@ a.next:hover {
     transition-duration: 1s;
     position: fixed;
     right: 10%;
-    bottom: 4%;
+    bottom: 10%;
     display: none;
     @include media-query($on-palm) {
-        position: static;
+            right: 5%;
+            bottom: 1%;
+            opacity: 0.7
     }
     
 }
@@ -314,7 +316,8 @@ div#ga-pageviews {
 
 .pagination {
     text-align: center;
-    margin-top: 2em;
+    padding: 1em;
+    line-height: 2;
 }
 
 .page-num {

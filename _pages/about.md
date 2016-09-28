@@ -30,6 +30,7 @@ All the stuff on my blog is free. All I ask my users is to whitelist my domain. 
 I also accept donations.
 
 <a target="_blank" class="donate" href="https://www.paypal.me/webjeda/1">Donate</a>
+<br />
 <style>
 a.donate:hover{
    color: #fff;
@@ -117,7 +118,9 @@ a.donate:hover{
 
 
 <pre>
-<h2>2016</h2>
+<h2 style="line-height: 1">2016</h2>
+28th September - Layout changes, reduced redundant code.
+
 26th August - Removed popup subscribe box as Google is going to punish intrusive mobile popups.
 
 2nd August - Moving to secure SSL. Now on, you will see a green padlock before my URL on browsers.
