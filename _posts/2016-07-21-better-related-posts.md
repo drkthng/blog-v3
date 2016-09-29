@@ -131,7 +131,7 @@ If our post has tags ``Jekyll`` ``Github`` and ``Web-Design`` then the code look
 
 If there are more than ``maxRelated`` posts are available then only the recent ones are considered. 
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ## How to increase the accuracy of Jekyll Related Posts?
 ``minCommonTags`` is directly proportional to the relation between posts. If posts have more common tags then they must be related isn't it? This code uses the same logic. You can increase this number to get highly targeted related posts but sometimes you may get no output. 

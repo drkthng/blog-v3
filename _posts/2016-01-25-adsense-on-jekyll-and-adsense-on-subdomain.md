@@ -108,6 +108,8 @@ But how? I have defined Adsense files in default, page and post layouts. So any 
 
 Then it hit me. I can add a front matter and write a condition not to include those pages! Here I have added a front matter attribute called ```adallow: 0``` to all those pages in which I don't want my adsense ads to appear.
 
+{% include adsense-inside-post-2.html %}
+
 This is how the front matter in my about page looks like
 
 {% highlight css %}

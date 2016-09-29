@@ -113,7 +113,7 @@ Beginners try php forms inside Jekyll and see that it doesn't work. It doesn't b
 ## Create a subscribe form for your Jekyll blog
 Maintaining a mailing list is good for initial traffic. Mailchimp forms can be used inside Jekyll. I hope even Aweber forms can be used in Jekyll (I haven't tried Aweber). Read [How to create a mailchimp subscribe form in Jekyll](http://blog.webjeda.com/jekyll-subscribe-form/){: target="_blank"}.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ## Make your blog super fast!
 Faster websites keep users happy. Your blog is already fast because you are using Jekyll but you may have too many things loading up or have heavy media files. For a fast Jekyll blog read [How to speed up Jekyll blog](http://blog.webjeda.com/jekyll-speed/){: target="_blank"}.

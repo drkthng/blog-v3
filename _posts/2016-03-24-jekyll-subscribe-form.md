@@ -130,6 +130,9 @@ I prefer these two email subscription handlers - Aweber or MailChimp. I suggest 
 
 MailChimp has an option to [create a list](https://us10.admin.mailchimp.com/lists/new-list/){:rel='nofollow'}{:target="_blank"}(which will be automatically updated upon new subscriptions and un-subscriptions), an option to create a form for normal websites and an embeddable form for static websites.
 
+
+{% include adsense-inside-post-2.html %}
+
 For Jekyll websites, one must choose embeddable forms. Here is how the code looks like
 
 {% highlight html %}

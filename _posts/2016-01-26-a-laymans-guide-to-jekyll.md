@@ -106,7 +106,7 @@ Here is a video on how Jekyll works
 
 <iframe class="video" src="https://www.youtube.com/embed/gI-FcrkDveA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-
+{% include adsense-inside-post-2.html %}
 
 I hope that gives you an insight into the structure of Jekyll files and folders. It looked strange for me in the beginning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of a lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where to look for. In this blog, I have written a [lot of things](/archive/) I did using Jekyll. Make use of it.
 

@@ -233,6 +233,8 @@ I like to write posts on [Brackets](http://brackets.io){:rel='nofollow'}{:target
 **2. No internet is required:**
 Since we are writing posts locally, no internet is required until the time we have to post to the server. This is good for someone like me who is living in a small town and have an unreliable internet connection.
 
+{% include adsense-inside-post-2.html %}
+
 **3. See the changes before implementing:**
 When you are editing Jekyll blog locally, you can make changes and see how it renders on a browser. This is really useful when you are creating a new menu bar, button, or a layout where you have to change things very often before settling on the final version.
 

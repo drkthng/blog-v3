@@ -73,6 +73,8 @@ Now clear any glyph you think is not necessary and you do not use it in the futu
 
 I use icons for share bar, footer and mostly on about page. So I kept those icons and cleared out everything else. Hold **Shift** for multiple selection. Now, click on **File** and then in **Generate Fonts**. Save it with any name you like. 
 
+{% include adsense-inside-post-2.html %}
+
 This file is your new web font ``woff`` that should be used inside fonts folder. It is better to rename it back to ``fontawesome-webfont.woff`` and replace the original with this one.
 
 Test the website again to check whether all the icons are loading(they should) and push changes. This can be further optimized by converting the font to base64 and hence reducing one more request!

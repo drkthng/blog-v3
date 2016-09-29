@@ -144,6 +144,8 @@ It is not feasible to copy this code to every other blog post. That is the reaso
 
 If you want the comment box to appear at the bottom of all my posts, you should add the above include liquid tag to post layout which will be inside **_layouts** folder.
 
+{% include adsense-inside-post-2.html %}
+
 A sample post layout with Disqus would look like this
 
 {% highlight html %}

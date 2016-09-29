@@ -170,7 +170,7 @@ This can be done with the following liquid syntax. Copy this to **post layout** 
 This is how we can implement categories. If we want tags instead of categories then we should replace **category** with **tag** and **categories** with **tags** everywhere.
 
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ## Conclusion
 It is good to categorize items if there is a lot of content on varying topics. But if the content is just on one subject then there is no need to categorize it. Using category slug in the URL helps users to figure out what they will encounter on opening the link. Use Jekyll Categories where you think is necessary.

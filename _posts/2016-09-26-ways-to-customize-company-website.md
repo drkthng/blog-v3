@@ -75,7 +75,7 @@ UI Interactive web designs are proven to attract the regular web visitor and kee
 
 ![UI interaction button click](/images/ui-interaction.gif){: .noborder}
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ## One Page Web Design
 The one-page web design may have some flaws in SEO,but it is a great web design choice and on the plus side, it is the perfect mobile friendly layout. The one-page web design goes from top to bottom in a vertical motion. 

@@ -101,6 +101,8 @@ Now copy this line inside your post layout file which will be inside the **_layo
 {% raw %}{% include  share.html %}{% endraw %}
 {% endhighlight %}
 
+{% include adsense-inside-post-2.html %}
+
 ## Add style to your share bar
 
 I have styled the buttons with the following css. You can change it for your needs.

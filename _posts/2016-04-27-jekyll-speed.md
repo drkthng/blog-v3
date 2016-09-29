@@ -272,7 +272,7 @@ This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm think
 
 If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ### 8. Lazy load css 
 {: .clear}

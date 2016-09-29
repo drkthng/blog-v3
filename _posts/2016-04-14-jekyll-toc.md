@@ -189,6 +189,10 @@ title: '<i>Jump to...</i>';
 
 For some reason, the TOC section assumes the style ```display: block``` which will cover the whole page. But I wanted it on one side of the page. So I have added the code ```display: inline-block!important```. I personally do not like using **!important** but here I had to. It is at least better than in-line CSS!
 
+
+{% include adsense-inside-post-2.html %}
+
+
 Now, different markdown handlers process markdown differently. Table of Contents will create an anchor tag for every headline. But this is not supported by all the markdown processors. **Kramdown** is good with it but if you are using **redcarpet** or **rdiscount** you have to make some changes in the **_config.yml** file.
 
 

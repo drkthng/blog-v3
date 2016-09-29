@@ -25,6 +25,7 @@ No particular arrangement or connection between individual items. For example, a
 ### Collections:
 Collections is a set of items which has a certain relation between individual items but may not have a chronological arrangement.
 
+{% include adsense-inside-post-2.html %}
 
 For example, let's consider you have a blog which is about movie reviews. You write your reviews as posts. So for every movie you create a post. Let's say you want to make a list of **Top 25 must watch movies** or **Top 10 scary movies** which will have all the details of each movie. In this case, posts or pages are not a good choice to go with. We can use collections instead. It is a collection of certain kind of movies. You can have any number of collections.
 
@@ -120,8 +121,6 @@ Since the theme is based on default Jekyll theme, it is very light-weight. No Ja
 {% endraw %}{% endhighlight %}
 
 {% include adsense-inside-post.html %}
-
-
 
 
 ## Jekyll collection index

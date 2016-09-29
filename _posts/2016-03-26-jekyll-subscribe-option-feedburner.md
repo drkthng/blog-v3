@@ -115,6 +115,8 @@ In publicize tab you should see an option called **Email Subscription**. Click o
 
 <div class="clear"></div>
 
+{% include adsense-inside-post-2.html %}
+
 We can use our own custom icon like I did for this blog. If you are browsing this website through a desktop then you see a subscribe icon on the bottom-right corner which never goes away.
 
 Find **Subscription Link Code** and copy the code and hit save.

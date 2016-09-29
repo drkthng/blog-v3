@@ -100,7 +100,7 @@ input#gsc-i-id1.gsc-input {
 
 Check out my Jekyll blog's search page. I haven't enabled auto-complete yet. I will do it once I have enough content. There is a reason why I have search bar in a different page instead of having it on all the pages. I do not want one extra script loading on all of my pages. Users who actually use search will find it somehow but for a user who's on my website for one little thing shouldn't feel that the site loads very slow. So Google CSE script loads only on my [**Search**](/search/){: target="_blank"} page.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 
 There is a significant delay in loading the script. Maybe because it loads all the assets through the script. So whenever someone visited the search page, they used to see nothing initially. Then after a second or two, the search bar would appear. This time-frame is crucial. many users may leave right after they see a blank page. I had to keep them waiting.

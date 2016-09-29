@@ -97,6 +97,8 @@ enforce_ssl: username.github.io
 
 This way, there will be no trace of your **http** website anywhere on the internet even though it works.
 
+{% include adsense-inside-post-2.html %}
+
 ## SSL on custom domain
 If you are using a custom domain, say ```yoursite.com``` then you may have to use a different approach. If enforcing works then great! Otherwise follow the procedure given below.
 

@@ -99,6 +99,8 @@ I struggled hard to tackle this. And after a while, I realized that I can define
 
 So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, fonts appear with a default web-font and some SVGs and images may show up in their full size.
 
+{% include adsense-inside-post-2.html %}
+
 To avoid this, in-line some of the css which makes everything look smooth. Do not in-line too much css though. It is not a good practice and also your users shouldn't get an impression that you do not know how to use css.
 
 ## Inline SCSS in Jekyll

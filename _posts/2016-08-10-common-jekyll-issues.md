@@ -194,7 +194,7 @@ So in order to use Liquid Syntax, you should use {&#x0025; raw &#x0025;} and {&#
 
 When you use these tags, the code is shown as it is without executing it.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ## Jekyll on windows
 There were many issues with Jekyll running on windows. The major one being installing Jekyll on windows. Most of the issues are getting fixed on a good pace. Also, windows has a package manager which is new for windows users I guess(at least for me). 

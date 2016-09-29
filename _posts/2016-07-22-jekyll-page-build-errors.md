@@ -152,7 +152,7 @@ I thought it was because I pushed a new post. But even after removing that post,
 **Step3:**
 If you have edited html or liquid syntax then check whether any tag is missing. Many times we forget to add ``</div>``, ``{% raw %}{% endfor %}{% endraw %}``, ``{% raw %}{% endif %}{% endraw %}``.  Check [this article](https://help.github.com/articles/troubleshooting-jekyll-builds/){: target="_blank" rel="nofollow"} for all kinds of errors possible.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 **Step 4:**
 Check if a new version of Jekyll is released. Last time when Jekyll 3.0 was released, many jekyll sites using ``realtive_permalink`` got such page build errors because it was deprecated. Even for people using ``highlighter`` other than **rouge** got an error.

@@ -36,6 +36,7 @@ Google takes around 200 parameters into account in ranking a web page. But befor
 
 **Remember:** Only indexed pages can be ranked!
 
+{% include adsense-inside-post.html %}
 
 ## Let's dive into Jekyll SEO
 
@@ -185,6 +186,8 @@ whose respective URLs would be
 ```http://blog.webjeda.com/optimize-jekyll-blog-seo/```
 
 ```http://blog.webjeda.com/how-to-optimize-jekyll-blog-for-seo/```
+
+{% include adsense-inside-post-2.html %}
 
 
 ## 3. Sitemap

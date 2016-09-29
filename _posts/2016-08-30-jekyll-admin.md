@@ -93,7 +93,7 @@ I like how WordPress handles image upload. You can drag and drop an image anywhe
 ### Multiple options in metadata
 Currently, metadata is an empty field where we have to fill 'title', 'layout' and other front matter and give it a value. It would be great if Jekyll can offer some basic metadata options by default which can be edited.
 
-{% include adsense-inside-post.html %}
+{% include adsense-inside-post-2.html %}
 
 ### Default metadata for new posts and pages
 Here metadata is nothing but front matter. I have so many of them. Title, description, layout, tags, permalink etc.. So I want to see an option where I can choose the default metadata values that automatically appear in every new post.

@@ -49,6 +49,7 @@ Select the **LITE** plan by clicking on **Choose** button below it. LITE is the 
 
 Enter the domain you own in the input field where it says **Add Domain**.
 
+{% include adsense-inside-post-2.html %}
 
 ### Step 4: Confirm Details
 {: .clear}
