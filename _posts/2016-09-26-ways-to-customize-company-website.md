@@ -35,6 +35,7 @@ Make sure that a company Logo and Favicon match in color. The logo of a company 
 ## Bolds and Italics
 When writing content on your website blog, always make sure that things that need to be bold are, and things that need to be in italics are so.
 
+{% include adsense-inside-post.html %}
 
 ## 2 Font Styles
 2 different font-styles is the newest trend in 2016. Use one different font style for your H Tags and another font size for all other text! 
@@ -73,6 +74,8 @@ Use a POP UP contact form! A pop-up contact form provides more of a focused atmo
 UI Interactive web designs are proven to attract the regular web visitor and keep them on a web page 3 times longer! UI Web animations tell a visual story and they have made a great improvement in web design. A website must be cautious not to speed up a UI Animation too much, keep the speed evenly equal. Another popular trend that compliments the UI Web design is Rich illustrations. 
 
 ![UI interaction button click](/images/ui-interaction.gif){: .noborder}
+
+{% include adsense-inside-post.html %}
 
 ## One Page Web Design
 The one-page web design may have some flaws in SEO,but it is a great web design choice and on the plus side, it is the perfect mobile friendly layout. The one-page web design goes from top to bottom in a vertical motion. 
