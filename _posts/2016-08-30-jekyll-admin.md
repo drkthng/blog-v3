@@ -19,6 +19,7 @@ If you have [ever used WordPress](/why-jekyll-over-wordpress/){: target="_blank"
 {:toc}
 
 Jekyll is trying to fill that gap of not having a UI by jekyll-admin. But it has a long way to go. With the current build, it is nowhere close to usable.
+{: .g}
 
 ## Why Jekyll-admin?
 Jekyll was considered to be not so non-coder friendly. Because to take advantage of the features of a Jekyll blog, one should have some basic coding knowledge or at least knows how to manipulate the present code.
@@ -102,6 +103,7 @@ Currently, metadata is an empty field where we have to fill 'title', 'layout' an
 Here metadata is nothing but front matter. I have so many of them. Title, description, layout, tags, permalink etc.. So I want to see an option where I can choose the default metadata values that automatically appear in every new post.
 
 Even better if it can detect the metadata fields from previous posts!
+{: .g}
 
 ### Code insert option
 I don't know why they haven't included code insert option. I want an option similar to the one in StackOverflow. Maybe in the future versions, it can have an options to let me choose which programming language I want to highlight.

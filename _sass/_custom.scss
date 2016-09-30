@@ -214,6 +214,8 @@ p.right {
 //warning ends
 .this, .past, .arch-list {
     list-style: none;
+    font-family: $base-font-family;
+    margin-bottom: 10px;
 }
 
 .next {

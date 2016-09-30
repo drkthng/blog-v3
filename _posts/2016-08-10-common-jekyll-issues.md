@@ -19,6 +19,7 @@ Read: [How create a beautiful Jekyll Blog](/create-jekyll-blog/){: target="_blan
 ![Your site is using the relative_permalinks configuration option](/images/jekyll-build-issues.PNG){: .noborder}
 
 What?!! As per the tutorial, you should have seen a URL but you are seeing an error!
+{: .r}
 
 This is because some Jekyll themes like [Hyde](http://hyde.getpoole.com){: target="_blank" rel="nofollow"} are not yet updated. They should have removed ``relative_permalinks`` from **_config.yml** since it is depricated. But theme developers could be busy with other things. 
 

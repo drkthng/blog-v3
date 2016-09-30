@@ -1,5 +1,4 @@
 html {
- font-family: $head-font-family;
  text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
  background-color: #FFF;
@@ -23,6 +22,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
 
   color: $text-color;
+  font-family: $head-font-family;
   letter-spacing: -.025rem;
 }
 
@@ -68,7 +68,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 300;
+
     @include media-query($on-palm) {
          font-size: 1.3em;
     }
@@ -76,7 +76,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    font-weight: 300;
+
     
     @include media-query($on-palm){
         font-size: 1.2em;
@@ -121,6 +121,7 @@ body {
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0.625em;
     line-height: 2;
+    font-weight: 600;
 }
 
 blockquote, pre,
@@ -276,11 +277,9 @@ pre {
 
 
 #post-title {
-    font-family: $head-font-family;
     font-size: 3em;
     line-height: 1.5;
-    font-family: inherit;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -1px;
     text-align: center;
     color: $brand-color;

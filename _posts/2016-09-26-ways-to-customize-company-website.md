@@ -65,7 +65,8 @@ The order of importance is as its listed above, h1 the greatest and largest tag 
 ## Blog Section
 Add a Jekyll blog to your website as a second directory. This will allow posts to be published out of a website and the more content relating to the domain, the better it is for SEO. The more and greater content coming out of a website, the better it ultimately is for SEO. The key to ‘quality’ content is to produce content out of a website is creating blogs that have a lot of description in them. 
 
-For example, let's say a jeweler has opened up a website to showcase his jewelry and on his website he has a Jekyll blog. What can the jeweler write on his blog? Easy! The jeweler may publish blogs relatable to his website and give off knowledge of jewelry and the market. 
+For example, let's say a jeweler has opened up a website to showcase his jewelry and on his website he has a Jekyll blog. What can the jeweler write on his blog? Easy! The jeweler may publish blogs relatable to his website and give off knowledge of jewelry and the market.
+{: .g}
 
 By writing these type of articles, there will most likely be web page views and increased page count. This is a great example why it is very important to write blogs on your website. Writing blogs increase web page count and shows google who you are more and more! 
 
@@ -88,6 +89,7 @@ The difference between the multi-page web design and the one-page web design is 
 The one-page menu will auto scroll all the way down the page to the contact box. So the one-page web design scrolls within its one page instead of changing physical web pages/links. 
 
 Here is an example: [Agency](https://blackrockdigital.github.io/startbootstrap-agency/){: rel="nofollow" target="_blank"}
+{: .g}
 
 ## Video Backgrounds
 Video backgrounds are another very popular trend that makes for a great website experience. Video backgrounds are popular because they bring a certain moment of life on a  web page. The only tip that a web page containing a video background must keep in mind is to watch the size of the video. 
@@ -111,6 +113,7 @@ After a website has been perfectly designed, its time to put it to the test. Cle
 
 Running a quick test with The [**W3C Markup Validation**](https://validator.w3.org/){: rel="nofollow" target="_blank"} is one of the top things to do to ensure that your website script doesn’t have any errors. Even if it does, it provides the lines where the errors are located and small tips on how to fix those errors. It is best for a web page to have a minimum to 0 errors on a website script.
 
-Use these above 14 tips to customize your web design and don’t forget to do a W3C Markup Validation after you’re done designing! 
+Use these above 14 tips to customize your web design and don’t forget to do a W3C Markup Validation after you’re done designing!
+{: .y}
 
 This Article is written by **Andy** from <a target="_blank" href="http://www.ntwdesigns.com/">http://www.ntwdesigns.com/</a>
