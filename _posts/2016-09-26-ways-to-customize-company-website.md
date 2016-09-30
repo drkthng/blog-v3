@@ -92,9 +92,9 @@ Here is an example: [Agency](https://blackrockdigital.github.io/startbootstrap-a
 ## Video Backgrounds
 Video backgrounds are another very popular trend that makes for a great website experience. Video backgrounds are popular because they bring a certain moment of life on a  web page. The only tip that a web page containing a video background must keep in mind is to watch the size of the video. 
 
-A heavyweight video can cause a website to load slowly and when a web page loads slowly the video will not open up. This will ultimately lead to a website visitor who lands on this slow loading website exit out the page before the site opens. Most website visitors are used to web pages opening 1.5 seconds below. 
+A heavyweight video can cause a website to load slowly and when a web page loads slowly the video will not open up. This will ultimately lead to a website visitor who lands on this slow loading website exit out the page before the site opens. Most website visitors are used to web pages opening at 1.5 seconds or less. 
 
-So if a website takes longer than that to open up, the visitor will leave and a website bounce rates are likely to go up the hill. Two great tips to reduce video backgrounds overall size is to decrease the frame quality and cut the video length. 
+So if a website takes longer than that to open up, the visitor might leave and the website bounce rates are likely to go up the hill. Two great tips to reduce video backgrounds overall size is to decrease the frame quality and cut the video length. 
 
 ## Vibrant Colors
 Vibrant colors are in style! Color vibrancy is somewhat like increased saturation on a photography. Vibrant colors have more color and are a bit lighter. However, one must not mix up color vibrancy with brightness. Color brightness is not easy on the eye as a vibrant color is. Adding vibrant colors to your layout will give your web page that extra spark to attract a web visitor and future client.
