@@ -2,7 +2,7 @@
 title: Gatok
 date: 2016-07-16
 layout: post
-img: webjeda-gatok-jekyll-theme-thumbnail.png
+image: webjeda-gatok-jekyll-theme-thumbnail.png
 desc: Webjeda gatok is a Bootstrap based responsive jekyll theme. It features a 3d navigation bar. 
 link: http://webjeda.com/gatok/
 dlink: https://github.com/sharu725/gatok/archive/master.zip

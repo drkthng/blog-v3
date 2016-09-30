@@ -1,13 +1,13 @@
 <h4>You May Also Enjoy</h4> 
-{% if page.url contains 'jekyll-themes' %}
+{% if page.path contains '_jekyll-themes' %}
    
 <div class="rect">
-    {% for jekyll-themes in site.jekyll-themes  limit:4 %}
+    {% for jekyll-themes in site.jekyll-themes  limit: 4 %}
          {% if jekyll-themes.url != page.url %}
              <a href="{{ jekyll-themes.url | prepend: site.baseurl }}">
                   <div class="rel">
-                      <h6>{{ jekyll-themes.title }}</h6>
-                      <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" src="/thumbs/{{ jekyll-themes.img }}">
+                      <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" src="/thumbs/{{ jekyll-themes.image }}">
+                       <h5>{{ jekyll-themes.title | truncate: 45 }}</h5>
                   </div>
               </a>
         {% endif %}

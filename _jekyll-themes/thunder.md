@@ -2,7 +2,7 @@
 title: Thunder
 date: 2016-05-01
 layout: post
-img: thunder-jekyll-theme.png
+image: thunder-jekyll-theme.png
 desc: Thunder is a lightning fast responsive theme based on default Jekyll theme. It is minimal and free from JavaScript. It has a css file of size 5kb. This theme is best suited for minimal blogs. 
 link: http://webjeda.com/thunder/
 dlink: https://github.com/sharu725/thunder/archive/master.zip

@@ -2,7 +2,7 @@
 title: Sidebar
 date: 2016-05-07
 layout: post
-img: webjeda-sidebar-jekyll-theme-screen.png
+image: webjeda-sidebar-jekyll-theme-screen.png
 desc: Webjeda Sidebar is an elegant theme which offers a nice toggleable sidebar. The theme stands out in its features like changable color scheme and pre-installed sharebar, analytics and disqus. It is suitable for all kinds of blogging.
 link: http://webjeda.com/webjeda-sidebar/
 dlink: https://github.com/sharu725/webjeda-sidebar/archive/master.zip

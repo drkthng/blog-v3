@@ -2,7 +2,7 @@
 title: Yudish
 date: 2016-09-11
 layout: post
-img: yudish-jekyll-theme.png
+image: yudish-jekyll-theme.png
 desc: Yudish is a super minimal, super-fast Jekyll theme for personal blogs.
 link: http://webjeda.com/yudish/
 dlink: https://github.com/sharu725/yudish/archive/master.zip

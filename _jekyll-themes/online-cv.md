@@ -2,7 +2,7 @@
 title: Online CV
 date: 2016-07-28
 layout: post
-img: online-cv-jekyll-theme.png
+image: online-cv-jekyll-theme.png
 desc: Online CV is a minimal responsive Jekyll Theme to host a resume(CV) online.
 link: http://webjeda.com/online-cv/
 dlink: https://github.com/sharu725/online-cv/archive/master.zip

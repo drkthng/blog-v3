@@ -2,7 +2,7 @@
 title: Cards
 layout: post
 date: 2016-06-07
-img: webjeda-cards-jekyll-theme.png
+image: webjeda-cards-jekyll-theme.png
 desc: Webjeda cards is a bootstrap based minimal Jekyll theme. It is suitable for all kinds of blogs especially image based blogs. It features a sidebar inside posts.
 link: https://webjeda.com/cards/
 dlink: https://github.com/sharu725/cards/archive/master.zip

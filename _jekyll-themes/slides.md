@@ -2,7 +2,7 @@
 title: Slides
 date: 2016-07-02
 layout: post
-img: slide-jekyll-theme-thumb.png
+image: slide-jekyll-theme-thumb.png
 desc: Webjeda slides is built using revealjs. The idea is to keep all the slideshows in one place as posts. All your presentations can be accessed from one place!
 link: http://webjeda.com/slides/
 dlink: https://github.com/sharu725/slides/archive/master.zip

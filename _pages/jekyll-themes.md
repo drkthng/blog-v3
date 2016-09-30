@@ -12,7 +12,7 @@ permalink: /jekyll-themes/
      {% for jekyll-themes in site.jekyll-themes reversed  %}
        <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
           <div class="card">
-                <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.img }}" width="300" height="auto" />
+                <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.image }}" width="300" height="auto" />
                 <div class="card-footer">
                     <h6 class="post-index-title">{{ jekyll-themes.title }}</h6>
                 <p class="post-excerpt">{{ jekyll-themes.desc | truncate: 160 }}</p>
