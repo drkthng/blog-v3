@@ -15,6 +15,9 @@ permalink: "/jekyll-admin/"
 
 If you have [ever used WordPress](/why-jekyll-over-wordpress/){: target="_blank"} then you may have noticed that editing post was a little easier than Jekyll because of the user interface(UI). You can drop in images, html code blocks, you see the changes right away with preview option etc.. WYSIWYG kind of editors are good for a non-coder because he/she knows what will be the output.
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 Jekyll is trying to fill that gap of not having a UI by jekyll-admin. But it has a long way to go. With the current build, it is nowhere close to usable.
 
 ## Why Jekyll-admin?
