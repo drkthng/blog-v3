@@ -66,7 +66,7 @@ Create a free account on [Github](https://github.com){:target="_blank"}. Github 
 
 Have a little patience to understand how it works. Many times (at least in my case :pig: ), you do not get the output you were looking for. There is a reason for that. Go through the error message. Copy the whole error message to google search to see whether other people have faced the same issue before. I have solved many issues I had with this method.
 
-Github documentation is good but it uses technical terms that a normal user is not aware of. If you want a guide for github then here it is - [**Github Guide**](https://guides.github.com/features/mastering-markdown/){:rel='nofollow'}{:target="_blank"}. Let's begin creating a Jekyll blog.
+Github documentation is good but it uses technical terms that a normal user is not aware of. If you want a guide for github then here it is - [**Github Guide**](https://guides.github.com/){:target="_blank"}. Let's begin creating a Jekyll blog.
 
 
 ## Step 1: Find a theme that suits your requirement
