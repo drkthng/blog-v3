@@ -1,7 +1,7 @@
 ---
-title: Wikipedia Look-alike Jekyll Table of Contents!
+title: 2 Ways to Implement Wikipedia like Jekyll Table of Contents!
 desc: Table of contents on Jekyll is easy to implement. TOC provides a quick look at what the article is all about. Also, users can skip to any topic they like just by clicking on it. Learn how to add Table of Contents (TOC) to your Jekyll blog.
-keywords: 
+keywords: jekyll toc
 author: sharathdt
 tags: Jekyll  
 image: jekyll-toc.png
