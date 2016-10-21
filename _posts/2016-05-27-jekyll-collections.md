@@ -128,6 +128,11 @@ Since the theme is based on default Jekyll theme, it is very light-weight. No Ja
 So I have two themes in my Theme collection. How to show them on a page? we have to create an index file. Create a file with the name **themes.md** in the root. 
 
 {% highlight html %}{% raw %}
+---
+layout: default
+title: Jekyll Themes
+---
+
 {% for themes in site.themes %}
 
 
