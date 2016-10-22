@@ -79,7 +79,7 @@ Posts and pages can be edited and previewed while editing. This is very handy fo
 
 Here you can write the post, style it, insert images, links, blockquotes etc.. You can also add Front Matter using metadata field. There is an option to split the screen while editing to see the preview.
 
-![jekyll admin preview post page](/images/jekyll-admin-preview-post.png){: .noborder}
+![jekyll admin preview post page](/images/jekyll-admin-preview-post.png)
 
 Along with posts and pages, you can also edit collections. I wasn't expecting it to detect the collection I had but it did which is really cool. The **static files** directory will have all the images, css, and js. The **configuration** option is nothing but your _config.yml file. 
 
