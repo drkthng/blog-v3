@@ -548,6 +548,9 @@ div#footer-icons {
 .footer-icon {
         margin-left: 0.7em;
         font-size: 120% !important;
+    &:hover{
+        color: $text-color;
+    }
 }
 
 .built p {
