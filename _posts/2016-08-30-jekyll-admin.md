@@ -19,7 +19,7 @@ If you have [ever used WordPress](/why-jekyll-over-wordpress/){: target="_blank"
 {:toc}
 
 Jekyll is trying to fill that gap of not having a UI by jekyll-admin. But it has a long way to go. With the current build, it is nowhere close to usable.
-{: .g}
+
 
 ## Why Jekyll-admin?
 Jekyll was considered to be not so non-coder friendly. Because to take advantage of the features of a Jekyll blog, one should have some basic coding knowledge or at least knows how to manipulate the present code.
