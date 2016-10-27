@@ -16,6 +16,11 @@ permalink: /jekyll-themes/
                 <div class="card-footer">
                     <h6 class="post-index-title">{{ jekyll-themes.title }}</h6>
                 <p class="post-excerpt">{{ jekyll-themes.desc | truncate: 160 }}</p>
+
+                {% if jekyll-themes.premium  %}
+                <div class="home-tag"><span>Premium</span></div>
+                {% endif %}
+
                </div>
      
         </div> 
