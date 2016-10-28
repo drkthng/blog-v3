@@ -1,0 +1,30 @@
+.eee, .eee a{
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+    }
+.eee:hover, .eee a:hover{
+        color: #333
+    }
+
+
+.ml2 {
+    margin-left: 2em;
+    
+}
+.mt2 {
+    margin-top: 2em;
+}
+
+
+@media screen and (max-width: 600px) {
+        .ml2 {
+            margin-left: 0;
+            margin-bottom: 12px;
+        } 
+        .table-cell{
+            display: block;
+        }
+        
+    } 
+    
