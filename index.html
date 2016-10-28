@@ -14,46 +14,46 @@ layout: default
     <div class="precont">
         <h1 style="color:#fff;line-height: 1.2;">New to Jekyll?</h1>
         <ol>
-            <a target="_blank" href="/jekyll-guide/">
-                <li class="ml2 eee"><strong>What is Jekyll?</strong></li>
-            </a>
-               <a target="_blank" href="/why-jekyll-over-wordpress/">
-                <li class="ml2 eee"><strong>Why should you use it?</strong></li>
-            </a>
-            <a target="_blank" href="/create-jekyll-blog/">
-                <li class="ml2 eee" ><strong>How to create a simple Jekyll blog?</strong></li>
-            </a>
-            <a target="_blank" href="/edit-posts-jekyll/">
-                <li class="ml2 eee"><strong>How to add new page to Jekyll blog?</strong></li>
-            </a>
-            <a target="_blank" href="/jekyll-speed/">
-                <li class="ml2 eee"><strong>How to speed up Jekyll blog?</strong></li>
-            </a>
-            <a target="_blank" href="/optimize-jekyll-seo/">
-                <li class="ml2 eee"><strong>How to optimize Jekyll blog for SEO?</strong></li>
-            </a>
+            
+                <li class="ml2 eee"><a target="_blank" href="/jekyll-guide/">What is Jekyll?</a></li>
+            
+               
+                <li class="ml2 eee"><a target="_blank" href="/why-jekyll-over-wordpress/">Why should you use it?</a></li>
+            
+           
+                <li class="ml2 eee" ><a target="_blank" href="/create-jekyll-blog/">How to create a simple Jekyll blog?</a></li>
+            
+           
+                <li class="ml2 eee"><a target="_blank" href="/edit-posts-jekyll/">How to add new page to Jekyll blog?</a></li>
+            
+            
+                <li class="ml2 eee"><a target="_blank" href="/jekyll-speed/">How to speed up Jekyll blog?</a></li>
+            
+            
+                <li class="ml2 eee"><a target="_blank" href="/optimize-jekyll-seo/">How to optimize Jekyll blog for SEO?</a></li>
+            
         </ol>
     </div><div class="precont" style="background-color: #f39c12">
         <h1 style="color:#fff;line-height: 1.2;">New to Github Pages?</h1>
         <ol>
-            <a target="_blank" href="/coding-and-more/">
-                <li class="ml2 eee"><strong>A brief intro</strong></li>
-            </a>
-               <a target="_blank" href="/create-host-website-github-pages/">
-                <li class="ml2 eee"><strong>Create and host a simple website!</strong></li>
-            </a>
-            <a target="_blank" href="/custom-domain-github/">
-                <li class="ml2 eee" ><strong>Add custom domain to your website.</strong></li>
-            </a>
-            <a target="_blank" href="/sync-files-folders-github/">
-                <li class="ml2 eee"><strong>Sync local files to Github Pages.</strong></li>
-            </a>
-            <a target="_blank" href="/github-upload/">
-                <li class="ml2 eee"><strong>Upload files to Github Pages.</strong></li>
-            </a>
-            <a target="_blank" href="https://www.youtube.com/watch?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1&v=bwThn0rxv7M">
-                <li class="ml2 eee"><strong>A video tutorial series</strong></li>
-            </a>
+            
+                <li class="ml2 eee"><a target="_blank" href="/coding-and-more/">A brief intro</a></li>
+            
+               
+                <li class="ml2 eee"><a target="_blank" href="/create-host-website-github-pages/">Create and host a simple website!</a></li>
+            
+            
+                <li class="ml2 eee" ><a target="_blank" href="/custom-domain-github/">Add custom domain to your website.</a></li>
+            
+            
+                <li class="ml2 eee"><a target="_blank" href="/sync-files-folders-github/">Sync local files to Github Pages.</a></li>
+            
+           
+                <li class="ml2 eee"> <a target="_blank" href="/github-upload/">Upload files to Github Pages.</a></li>
+            
+           
+                <li class="ml2 eee"> <a target="_blank" href="https://www.youtube.com/watch?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1&v=bwThn0rxv7M">A video tutorial series</a></li>
+            
         </ol>
     </div>
 </div>
@@ -67,7 +67,7 @@ layout: default
 
                 <div class="card-footer">
                     <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
-                     <a href="/tags/#{{ post.tags | first | slugize }}"><div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div></a>
+                     <div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div>
                     <p itemprop="description" class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
                </div>
            
@@ -106,13 +106,15 @@ layout: default
 
 
 <style>
-.eee {
+.eee, .eee a{
     color: #fff;
+    font-weight: bold;
     transition: 0.2s ease-in;
     }
-.eee:hover{
-        color: #333;
+.eee:hover, .eee a:hover{
+        color: #333
     }
+
 
 .ml2 {
     margin-left: 2em;
