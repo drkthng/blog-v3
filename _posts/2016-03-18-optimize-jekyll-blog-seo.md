@@ -193,7 +193,7 @@ whose respective URLs would be
 ## 3. Sitemap
 Having a sitemap is a necessity these days. It helps bots to crawl through your website easily. Also, submit sitemaps to search engines so that they don't have to look for it in the first place. 
 
-Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](/jekyll-sitemap/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is the important task in SEO. Do not ignore this step.
+Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](/jekyll-sitemap/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is an important task in SEO. Do not ignore this step.
 
 ## 4. Image alt Tags
 
@@ -227,7 +227,7 @@ Open Graph tags for Jekyll
 <meta property="article:publisher" content="http://www.facebook.com/webjeda" />
 <meta property="article:author" content="https://www.facebook.com/sharu725" />
 <meta property="article:published_time" content="{{ page.date }}" />
-<meta property="og:description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% endraw %}{% endhighlight %}
 
 
@@ -237,7 +237,7 @@ Twitter Card tags for Jekyll
 {% highlight html %}{% raw %}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:site" content="@webjeda" />
 <meta name="twitter:creator" content="@sharathdt">
 <meta name="twitter:card" content="summary">
