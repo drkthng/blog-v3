@@ -322,7 +322,7 @@ Though Jekyll users have a hard time configuring SEO on their own, they do have 
 <div class="tips">
     <h3>Pro Tips</h3>
     <p>
-        If you want to test whether your website is optimized for SEO then try <a href="https://toolbox.seositecheckup.com/apps/seo-checkup"><strong>SEO Checkup</strong></a> and try to resolve all the errors and warnings.
+        If you want to test whether your website is optimized for SEO then try <a target="_blank" rel="nofollow" href="https://varvy.com/"><strong>SEO Checkup</strong></a> and try to resolve all the errors and warnings.
     </p>
 </div>
 
