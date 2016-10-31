@@ -136,7 +136,7 @@ description: I created this beautiful looking Jekyll blog by forking a repositor
 
 
 ## 2. URL structure
-A URL conveys a lot of information about the content. Users and bots expect it to be familiar to the topic. 
+A URL conveys a lot of information about the content. Users and bots expect it to be in sync with the topic. 
 
 ### Make it readable
  
