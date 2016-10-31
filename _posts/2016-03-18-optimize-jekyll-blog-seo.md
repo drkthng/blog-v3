@@ -174,7 +174,7 @@ permalink: /:title/
 ### Stop using stop-words!
 Using **and, or, but, of, the, a, etc** inside a URL is not necessary. It will only increase the length of your URL(bots like short URLs). In this post, I have left out **how-to** because the URL still makes sense without those stop words. Take some time to leave stop words before you decide to publish a post. 
 
-In Jekyll URL can be changed by renaming the file in ```_posts``` folder.
+In Jekyll, a URL can be changed by renaming the file in ```_posts``` folder.
 
 ```2016-03-09-optimize-jekyll-blog-seo.md``` is a better name than
 
