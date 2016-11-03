@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/css/index.css">
+<style>
+          {% capture include_to_scssify %}
+          {% include index.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style> 
 
 {% if site.news == true %}
    <div class="news">
