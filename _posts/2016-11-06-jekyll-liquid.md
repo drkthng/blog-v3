@@ -39,7 +39,7 @@ Let's begin learning Liquid keeping Jekyll in mind. There are 3 things that we s
 ### Tags
 
 Tags are functional. They usually tell what to do and how to do something. They are used to implement control flows, iterations etc., The best example for this would be the one I have mentioned above - **legal age for drinking beer**.
-{: .g}
+
 
 Along with conditional statements, tags are also used for special purposes like including a file from ``_includes`` folders. I have also discussed it [here](https://blog.webjeda.com/jekyll-guide/#folders-inside-a-jekyll-site){: target="_blank"}.
 
@@ -59,7 +59,7 @@ Liquid tags and objects will not work on a page if you have not defined front ma
 
 ### Objects
 Objects are used to output dynamic data on a page. In Jekyll, we have front matter ``title`` for almost all pages and posts. This can be accessed inside that page or post using the following object,
-{: .g}
+
 
 {% highlight liquid %}{% raw %}
 {{page.title}}
@@ -72,7 +72,7 @@ Here is the output of the same object for this page.
 
 ### Filters 
 Filters are used to modify outputs. It is used along with objects. A simple example is shown below.
-{: .g}
+
 
 {% highlight liquid %}{% raw %}
 {{page.title | upcase }}
