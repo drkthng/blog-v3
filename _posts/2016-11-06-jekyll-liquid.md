@@ -110,7 +110,7 @@ twitter: webjeda
 github: sharu725
 {% endraw %}{% endhighlight %}
 
-Let's say you create a author section with follow buttons,
+Let's say you create an author section with follow buttons,
 
 {% highlight html %}{% raw %}
 Follow me on: 
