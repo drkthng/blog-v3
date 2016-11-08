@@ -87,6 +87,8 @@ Here the output string will be converted into uppercase letters.
 
 I hope by now you have a basic idea of how liquid syntax works. But these are very simple examples. There can be complex liquid code blocks as well. Let's discuss some variables that we can use in Jekyll.
 
+Here is a link for all the filters that you can use: [Liquid Filters](https://help.shopify.com/themes/liquid/filters){: target="_blank"}
+
 ## Site Variables
 These are sitewide objects. They can be used anywhere on the website to fetch data either something related to the site or data from ``_config.yml`` file.
 
