@@ -255,7 +255,8 @@ The output is here
 
 Since this page has a title that contains both Jekyll and Liquid, the output is as shown above.
 
-Else if is implemented this way,
+Else if in Jekyll Liquid Syntax is implemented this way,
+
 {% highlight liquid %}{% raw %}
 {% if page.url == '/liquid/' %}
   The page URL for this page is /liquid/
