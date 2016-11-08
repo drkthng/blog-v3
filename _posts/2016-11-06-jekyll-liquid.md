@@ -8,7 +8,6 @@ img-src: "http://www.freepik.com/free-vector/flowing-down-paint_765063.htm"
 img-src-name: Design by Freepik
 layout: post
 permalink: "/jekyll-liquid/"
-published: false
 ---
 
 Liquid Syntax is an open-source template language created by Shopify. Jekyll uses it to load data dynamically, access data across the site, implement conditional logics like **if**, **for**, **case** etc.,
