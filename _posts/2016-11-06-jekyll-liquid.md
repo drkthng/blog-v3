@@ -272,7 +272,7 @@ The output will be,
 
 This is exactly how I have implemented active menu highlight for this blog. Navigate to **About** or **Contact** page and see how the colored-underline gets highlighted.
 
-``For loops`` will usually have more than one output but ``if conditions`` will have one output.
+``For loops`` will usually have more than one output but ``if conditions`` will have only one output.
 {: .g}
 
 Please go through this [document](https://help.shopify.com/themes/liquid/tags/control-flow-tags){: target="_blank"} to get familiar with other types of condtional flows.
