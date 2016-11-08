@@ -1,22 +1,24 @@
 ---
 title: How to use Liquid Syntax in Jekyll!
-desc: Liquid is an open-source templating language. Jekyll makes the best use of Jekyll to implement conditional logics and outputs and filters. 
+desc: Liquid is an open-source templating language. Jekyll makes the best use of Jekyll to implement conditional logics, outputs and filters. It may look wierd for first timers but it is one of the reasons I'm still using Jekyll. I have discussed how to use Liquid in Jekyll.
 author: sharathdt
 tags: Jekyll Web-Design
-image: 
+image: jekyll-liquid.png
+img-src: "http://www.freepik.com/free-vector/flowing-down-paint_765063.htm"
+img-src-name: Design by Freepik
 layout: post
 permalink: "/jekyll-liquid/"
 published: false
 ---
 
-Liquid is an open-source template language created by Shopify. Jekyll uses it to load data dynamically, access data across the site, implement conditional logics like **if**, **for**, **case** etc.,
+Liquid Syntax is an open-source template language created by Shopify. Jekyll uses it to load data dynamically, access data across the site, implement conditional logics like **if**, **for**, **case** etc.,
 
-For a beginner this might look like an alien programming which doesn't resembel any of the programming languages that he/she may have seen before.
+For a beginner, this might look like an alien programming which doesn't resemble any of the programming languages that he/she may have seen before.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-But I assure you that it is probably the simplest and comprahensive language that I have seen so far. Take this snippet for example,
+But I assure you that it is probably the simplest and comprehensive language that I have seen so far. Take this snippet for example,
 
 {% highlight liquid %}{% raw %}
 {% if age >= 18 %}
@@ -26,7 +28,7 @@ But I assure you that it is probably the simplest and comprahensive language tha
 {% endif %}
 {% endraw %}{% endhighlight %}
 
-So simple isn't it. I wish other programs were also this easy and did not make a fuss when I miss a semicolon.
+So simple isn't it. I wish other programs were also this easy and did not make a fuss whenever I miss a semicolon.
 
 Let's begin learning Liquid keeping Jekyll in mind. There are 3 things that we should know before we jump right in.
 
@@ -37,10 +39,10 @@ Let's begin learning Liquid keeping Jekyll in mind. There are 3 things that we s
 
 ### Tags
 
-Tags are functional. They usually tell what to do and how to do something. They are used to implement control flows, iterations etc., The best example for this would be the one I have mentioned above - legal age for drinking beer.
+Tags are functional. They usually tell what to do and how to do something. They are used to implement control flows, iterations etc., The best example for this would be the one I have mentioned above - **legal age for drinking beer**.
 {: .g}
 
-Along with conditional statements, tags are also used for special purposes like including a file from ``_includes`` folders.
+Along with conditional statements, tags are also used for special purposes like including a file from ``_includes`` folders. I have also discussed it [here](https://blog.webjeda.com/jekyll-guide/#folders-inside-a-jekyll-site){: target="_blank"}.
 
 {% highlight liquid %}{% raw %}
 {% include head.html %}
@@ -70,7 +72,7 @@ Here is the output of the same object for this page.
 {% endhighlight %}
 
 ### Filters 
-Filters are used to modify output. It is used along with objects. A simple example is shown below.
+Filters are used to modify outputs. It is used along with objects. A simple example is shown below.
 {: .g}
 
 {% highlight liquid %}{% raw %}
@@ -98,7 +100,7 @@ Some examples here.
 |{% raw %}{{ site.posts }}{% endraw %}|Fetches a list of all the posts|
 |{% raw %}{{ site.data }}{% endraw %}|Fetches a list containing the data loaded from the YAML files located in the _data directory|
 
-Site variables defined in ``_config.yml`` are very useful and can be used to change things globally. Imagine you define your facebook username in configuration file. You can access this from anywhere on the site. 
+Site variables defined in ``_config.yml`` are very useful and can be used to change things globally. Imagine you define your facebook username in the configuration file. You can access this from anywhere on the site. 
 
 Let's say this is how you define all the social media accounts in ``_config.yml``,
 {% highlight yaml %}{% raw %}
@@ -125,20 +127,23 @@ Follow me on:
 {% endraw %}{% endhighlight %}
 
 Output will look like this
-
+<pre>
 Follow me on: 
 
   <a href="{{site.facebook}}" target="_blank" >
-      <i class="footer-icon fa fa-facebook-official"></i>
+      <i class="icon fa fa-facebook-official"></i>
   </a>
   
   <a href="{{site.twitter}}" target="_blank" >
-      <i class="footer-icon fa fa-twitter"></i>
+      <i class="icon fa fa-twitter"></i>
   </a>
   
   <a href="{{site.github}}" target="_blank" >
-      <i class="footer-icon fa fa-github-alt"></i>
+      <i class="icon fa fa-github-alt"></i>
   </a>
+</pre>
+
+
 
 
 This comes in very handy if you want to use these variables very often or change them altogether. I have used this feature while creating themes. Defining accent colors in configuration helps change the color globally.
@@ -267,9 +272,19 @@ The output will be,
 {% endif %}
 {% endhighlight %}
 
+This is exactly how I have implemented active menu highlight for this blog. Navigate to **About** or **Contact** page and see how the colored-underline gets highlighted.
+
 For loop will usually have more than one output but if condition will have one output.
 {: .g}
 
 Please go through this [document](https://help.shopify.com/themes/liquid/tags/control-flow-tags){: target="_blank"} to get familiar with other types of condtional flows.
+
+## Also refer:
+
+Liquid: [https://help.shopify.com/themes/liquid](https://help.shopify.com/themes/liquid)
+
+Front Matter: [http://jekyllrb.com/docs/frontmatter/](http://jekyllrb.com/docs/frontmatter/)
+
+Templates: [http://jekyllrb.com/docs/templates/](http://jekyllrb.com/docs/templates/)
 
 {% include table.html %}
