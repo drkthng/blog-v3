@@ -1,6 +1,6 @@
 ---
 title: How to use Liquid Syntax in Jekyll?
-desc: Liquid is an open-source templating language. Jekyll makes the best use of Jekyll to implement conditional logics, outputs and filters. It may look weird for first timers but it is one of the reasons I'm still using Jekyll. I have discussed how to use Liquid in Jekyll.
+desc: Liquid is an open-source templating language. Jekyll makes the best use of Liquid to implement conditional logics, outputs and filters. It may look weird for first timers but it is one of the reasons I'm still using Jekyll. I have discussed how to use Liquid in Jekyll.
 author: sharathdt
 tags: Jekyll Web-Design
 image: jekyll-liquid.png
@@ -128,22 +128,18 @@ Follow me on:
 {% endraw %}{% endhighlight %}
 
 Output will look like this
-<pre>
-Follow me on: 
 
+Follow me on: 
   <a href="{{site.facebook}}" target="_blank" >
       <i class="icon fa fa-facebook-official"></i>
   </a>
-  
   <a href="{{site.twitter}}" target="_blank" >
       <i class="icon fa fa-twitter"></i>
   </a>
-  
   <a href="{{site.github}}" target="_blank" >
       <i class="icon fa fa-github-alt"></i>
   </a>
-</pre>
-
+<style>i.icon {margin-left: 10px;}</style>
 
 
 
