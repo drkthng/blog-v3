@@ -180,7 +180,7 @@ The output is here
 {% endfor %}
 {% endhighlight %}
 
-I'm limiting the outputs to 3. If not, the whole page will be filled with titles. Here, ``pot`` is just a variable. People generally use ``post`` in its place. You can use any word that you fancy.
+I'm limiting the outputs to 3. If not, the whole page will be filled with titles. Here, ``pot`` is just a variable. We generally use ``post`` in its place. You can use any word that you fancy.
 
 You can also fetch titles manually (not recommended!)
 
