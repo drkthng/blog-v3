@@ -40,7 +40,7 @@ Removing unused glyphs reduced the ``woff`` file size from 90KB to 8.5KB. This s
 {% include adsense-inside-post.html %}
 
 ### Step 1: Localize Font awesome
-We cannot edit font served from CDN. So we should use font awesome locally. Remove the font awesome CDN link from the head tag if you are using it. Go to http://fontawesome.io/ and download the latest version of fontawesome. Unzip and keep it in the website repository. In our case, the root of the repository.
+We cannot edit font served from CDN. So we should use font awesome locally. [Download fontawesome](http://fontawesome.io/#modal-download){: target="_blank" rel="nofollow"} here. Remove the font awesome CDN link from the head tag if you are using it. Go to http://fontawesome.io/ and download the latest version of fontawesome. Unzip and keep it in the website repository. In our case, the root of the repository.
 
 Call the css file which is inside font awesome css folder in the head tag like this.
 
@@ -53,6 +53,15 @@ You will also have a minified file ``font-awesome.min.css``. But let's not use i
 Once this is done, clear cache from the browser and load your website locally (``jekyll serve`` if Jekyll site). Check if the font awesome icons are loading. Try to refresh by pressing ``Ctrl+f5`` several times. If the font is still loading then we are good to go to the next step.
 
 ### Step 2: Remove unnecessary files
+
+When you  and extract the files, you'll see these folders.
+
+![Localize Font Awesome](/images/localized-fontawesome.PNG)
+
+But we just need the CSS and Fonts. We can delete other variants.
+
+![Localize Font Awesome](/images/localized-fontawesome-2.PNG)
+
 For a font to load, modern browsers just need ``woff`` file. So other files such as ``woff2``, ``ttf``, ``eot``, ``svg`` are not necessary. So delete all these files from the **fonts** folder and leave only ``fontawesome-webfont.woff``.
 
 ![font awesome contents](/images/optimize-fontawesome-css.jpg)
@@ -62,7 +71,7 @@ Font awesome has **less** and **scss** variants which you can use or delete them
 
 ### Step 3: Edit the font file
 {: .clear}
-This step needs an application. Go to [FontForge](http://fontforge.github.io/en-US/){:rel='nofollow'}{:target="_blank"}, download and install the application.
+This step needs a small application. Go to [FontForge](http://fontforge.github.io/en-US/){:rel='nofollow'}{:target="_blank"}, download and install the application.
 
 Open ``fontawesome-webfont.woff`` with this application and find the glyphs. You may have to scroll down a lot. You can go to **Encoding** then click on **Compact** to get them right on the top.
 
