@@ -53,17 +53,17 @@ Check all the Jekyll [variables here](http://jekyllrb.com/docs/variables/){:rel=
 Then I changed the facebook share link to the following which works for all pages!
 {: .clear}
 
-```https://www.facebook.com/sharer/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
+```https://www.facebook.com/sharer/sharer.php?u={% raw %}{{ site.url }}{{site.baseurl}}{{ page.url }}{% endraw %}```
 
 How cool is that!
 
 I can do the same thing for twitter share link
 
-```https://twitter.com/home?status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
+```https://twitter.com/home?status={% raw %}{{ site.url }}{{site.baseurl}}{{ page.url }}{% endraw %}```
 
 This works pretty much on all the social media websites. For LinkedIn, I also added title and description of the page.
 
-```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.description }}{% endraw %}&source=webjeda```
+```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{{site.baseurl}}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}{% endraw %}&source=webjeda```
 
 This is the key to my WebJeda Sharebar.
 
@@ -76,20 +76,20 @@ Create a new ```html``` file inside **_includes** folder and call it share.html.
 
 <h3>Share this:</h3>
 <div id="share-box"> 
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa share-button"> facebook</i></a>
        
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa share-button"> twitter</i></a>
        
-        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+        <a href="https://plus.google.com/share?url={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa share-button"> google</i></a>
        
-        <a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+        <a href="http://www.reddit.com/submit?url={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa share-button"> reddit</i></a>
-       <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=webjeda" onclick="window.open(this.href, 'mywin',
+       <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{site.baseurl}}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=webjeda" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa share-button"> linkedin</i></a>                         
-        <a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ page.url }}"><i class="fa fa-envelope fa share-button"> email</i></a>                                  
+        <a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{site.baseurl}}{{ page.url }}"><i class="fa fa-envelope fa share-button"> email</i></a>                                  
 </div>
 {% endraw %}{% endhighlight %}
 
