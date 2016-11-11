@@ -2,7 +2,7 @@
 title: How to use Liquid Syntax in Jekyll?
 desc: Liquid is an open-source templating language. Jekyll makes the best use of Liquid to implement conditional logics, outputs and filters. It may look weird for first timers but it is one of the reasons I'm still using Jekyll. I have discussed how to use Liquid in Jekyll.
 author: sharathdt
-tags: Jekyll Web-Design
+tags: Jekyll
 image: jekyll-liquid.png
 img-src: "http://www.freepik.com/free-vector/flowing-down-paint_765063.htm"
 img-src-name: Design by Freepik
