@@ -42,7 +42,7 @@ When I was preparing this share bar, I was facing problems with sharing the page
 
 
 ![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.png)
-{: .right .half}
+
 
 But how to make this change of URL for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables** - the ```{% raw %}{{ stuff }}{% endraw %}``` inside double curly braces!
 
