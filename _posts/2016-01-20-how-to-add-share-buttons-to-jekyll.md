@@ -48,7 +48,7 @@ But how to make this change of URL for every page. One way was to use ```window.
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](/create-jekyll-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
-See all the [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}
+Check all the Jekyll [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}.
 
 Then I changed the facebook share link to the following which works for all pages!
 {: .clear}
@@ -144,6 +144,6 @@ Currently, I'm using this share bar for my blog. You will see a share bar at the
 
 ![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
 
-So this is how you can implement css-only and JavaScript free WebJeda share bar. If you were able to implement this on your blog then please leave a link in the comment.
+So this is how you can implement css-only and JavaScript free WebJeda share bar. The onclick attribute is actually JavaScript but I think that doesn't delay the load of share buttons in any manner because it loads only when you click on it. And also it is used only to create a pop up. You can leave that part if you do not want to create a pop up. If you were able to implement this on your blog then please leave a link in the comment.
 
 Thanks for reading!
