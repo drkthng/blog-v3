@@ -8,7 +8,7 @@ layout: post
 permalink: "/dark-theme-switch"
 ---
 
-I'm not proud of using a smartphone to read articles on the bed. But this is a habit that many people have. Reading in low light is bad for your eyes if the phone emits a lot of bright light.
+I'm not proud of using smartphone to read articles on the bed. But this is a habit many people have. Reading in low light is bad for your eyes if the phone emits a lot of bright light.
 
 ![Dark mode](/images/reading-at-night-on-smartphone-dark-mode.jpg)
 
