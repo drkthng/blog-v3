@@ -73,7 +73,9 @@ After searching through StackOverflow and MDN, I came up with a working code.
 
 ## sessionStorage to switch theme
 
-Here is the same box which switches its color but retains even if you refresh the page! Actually, it refreshes once you click on it.
+Here is the same box which switches its color but retains even if you refresh the page! Actually, it refreshes once you click on it. 
+
+Try navigating to some other page and come back. This box will still be dark!
 
 <div id="dark-div-2" style="background-color: rgb(255, 255, 255); padding:30px 60px; border: 1px dashed #000; width: 150px;text-align:center;margin: 10px;cursor: pointer" onclick="darker()">
     <p>Switch</p>
