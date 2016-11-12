@@ -8,16 +8,16 @@ layout: post
 permalink: "/dark-theme-switch"
 ---
 
-I'm not proud of using smartphone to read articles on bed. But this is a habit that many people have. Reading on low light is bad for your eyes if the phone emits a lot of bright light.
+I'm not proud of using a smartphone to read articles on the bed. But this is a habit that many people have. Reading in low light is bad for your eyes if the phone emits a lot of bright light.
 
 ![Dark mode](/images/reading-at-night-on-smartphone-dark-mode.jpg)
 
 There are [apps](https://redgadgets.com/protect-eyes-from-computer/){: target="_blank"} that you can use to reduce the light. A better option is to have a dark theme. Apps like Reddit already has this option. Maybe they know their users are nocturnal!
 
 ## How to create a dark mode?
-When I thoght of this problem, I knew JavaScript can do it but [I'm a noob in JS](https://js.webjeda.com){: target="_blank"}. I don't really create my own script. I copy from some pre-existing script and make changes as I like.
+When I thought of this problem, I knew JavaScript can do it but [I'm a noob in JS](https://js.webjeda.com){: target="_blank"}. I don't really create my own script. I copy from some pre-existing script and make changes as I like.
 
-But this seemed very easy and I gave it a try to write something on my own! Which was a horrible code.
+But this seemed very easy and I gave it a try to write something on my own which was a horrible code.
 
 {% highlight html %}
 
@@ -49,14 +49,14 @@ But this seemed very easy and I gave it a try to write something on my own! Whic
 
 {% endhighlight %}
 
-Copy the code, save as html file and open in a browser to see how this works. It is pretty much like the below box.
+Copy the code, save as HTML file and open in a browser to see how this works. It is pretty much like the below box.
 
 <div id="dark-div" style="background-color: rgb(255, 255, 255); padding:30px 60px; border: 1px dashed #000; width: 150px;text-align:center;margin: 10px;cursor: pointer" onclick="dark()">
     <p>Click me</p>
 </div>
 
 
-This one works as expected. But I tell you this wasn't easy. First thing is that the JS recognized only rgb code and not HEX. It took me a while to figure that out. It swtches background color inline only. Also if you refresh the browser, background color goes back to default.
+This one works as expected. But I tell you this wasn't easy. First thing is that the JS recognized only RGB code and not HEX. It took me a while to figure that out. It switches background color inline only. Also if you refresh the browser, background color goes back to default.
 
 ## Store value across the domain
 
@@ -64,16 +64,16 @@ The problem with this approach is that it is specific to a page. If you switch t
 
 We want it to remember the last switch and keep it across the domain. So if a user switches the theme once then it should remain switched unless he restarts the browser.
 
-Using cookies is one option but it is so yesterday. Europians know the headache of using cookies on a website. 
+Using cookies is one option but it is so yesterday. Europeans know the headache of using cookies on a website. 
 
 A better way is to use either ``localStorage`` or ``sessionStorage``. HTML5 has these options to store up to 5MB of data until you close the browser(sessionStorage) or clear the cache(localStorage). 
 
-After searching through stackoverflow and MDN, I came up with a working code.
+After searching through StackOverflow and MDN, I came up with a working code.
 
 
 ## sessionStorage to switch theme
 
-Here is the same box which switches its color but retains even if you refresh the page! Actually it refreshes once you click on it.
+Here is the same box which switches its color but retains even if you refresh the page! Actually, it refreshes once you click on it.
 
 <div id="dark-div-2" style="background-color: rgb(255, 255, 255); padding:30px 60px; border: 1px dashed #000; width: 150px;text-align:center;margin: 10px;cursor: pointer" onclick="darker()">
     <p>Switch</p>
