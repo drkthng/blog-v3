@@ -211,35 +211,59 @@ pre,
 code {
  
     font-size: 15px;
-    border: 1px solid $brand-color;
-    border-radius: 3px;
-    background-color: transparent;
-    display: inline-block;
     word-wrap: break-word;
-    text-shadow: 0px 1px 1px;
     max-width: 100%;
-    @include media-query($on-palm) {
+    padding-left: 15px;
+/*     @include media-query($on-palm) {
     max-width: 92%;
-    }
+    } */
    
 }
 
-
 code {
-    padding: 0px 5px;
+    padding: 2px 6px;
+    border: 1px solid $brand-color;
+    border-radius: 4px;
 
+}
+
+pre:before{
+    content: "";
+    background-color: $brand-color;
+    background-image: url(/img/codes.svg);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -21px;
+    top: -20px;
+    line-height: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+       @include media-query($on-palm) {
+                left: -18px;
+                top: -14px;
+                width: 30px;
+                height: 30px;
+    }
+    
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+    position: relative;
+    border: 1px solid #3498db;
+    border-left: 4px solid #3498db;
 
     > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
+        display: block;
+        border:0;
+        padding: 20px 20px;
+        overflow-x: scroll;
+        
     }
 }
+
 
 /**
  * Clearfix

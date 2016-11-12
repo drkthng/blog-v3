@@ -89,6 +89,9 @@ I hope by now you have a basic idea of how liquid syntax works. But these are ve
 
 Here is a link for all the filters that you can use: [Liquid Filters](https://help.shopify.com/themes/liquid/filters){: target="_blank"}
 
+{% include adsense-inside-post.html %}
+
+
 ## Site Variables
 These are sitewide objects. They can be used anywhere on the website to fetch data either something related to the site or data from ``_config.yml`` file.
 
@@ -276,6 +279,8 @@ This is exactly how I have implemented active menu highlight for this blog. Navi
 {: .g}
 
 Please go through this [document](https://help.shopify.com/themes/liquid/tags/control-flow-tags){: target="_blank"} to get familiar with other types of condtional flows.
+
+{% include adsense-inside-post-2.html %}
 
 ## Also refer:
 
