@@ -13,9 +13,6 @@ permalink: /jekyll-comments/
 When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, there are some who may not agree with you and there are few who may have a different opinion all together. But how will you know what their opinion is if you don't give them the option to express!?
 
 
-<div class="clear"></div>   
-
-
 * Do not remove this line (it will not be displayed) 
 {:toc}
 

@@ -16,9 +16,6 @@ permalink: /lazy-load-css/
 {: .clear}
 Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website super-fast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
-<div class="clear"></div>   
-
-
 * Do not remove this line (it will not be displayed) 
 {:toc}
 

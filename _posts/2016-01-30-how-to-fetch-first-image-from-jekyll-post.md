@@ -16,6 +16,7 @@ If you observe this blog's homepage, you'll see that I have used a card-style co
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
 
 ## Why fetch an image from Jekyll post?
 {: .clear}

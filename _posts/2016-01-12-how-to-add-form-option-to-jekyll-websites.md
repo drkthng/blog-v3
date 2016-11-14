@@ -13,12 +13,11 @@ permalink: /jekyll-contact-form/
 When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Which was - how to add a form to Jekyll website which is static?! Generally, the backbone of forms is the ```php``` code which takes the data and sends it to the defined email address. Jekyll being static cannot perform any server side execution. So we cannot use ``php`` for forms.
 {: .clear}
 
-<div class="clear"></div>   
-
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
 
 ## why should we use a form?
 Form is a way to interact with the users. Providing personal emails and phone numbers can lead to receiving a lot of spam. This is the reason why no famous website includes their personal emain or phone number.

@@ -20,6 +20,7 @@ A long time ago I was writing 4 posts on WordPress installation tutorial. At the
 
 Manually linking articles was a tedious job if I had more articles. May be there was a plugin for that, but I was fed up with too many plugins! In Jekyll, it is wasy to implement navigation because we have nice little variables ```page.previous```and ```page.next``` which can handle navigation without breaking a sweat.
 
+{: .clear}
 
 ## Why use Related Prev-Next Navigation in Jekyll?
 

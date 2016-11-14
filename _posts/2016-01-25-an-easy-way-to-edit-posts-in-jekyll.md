@@ -32,6 +32,7 @@ There is another way to do this by creating an issue on Github where you can dra
 
 And also, this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. But, that was my workaround for not being able to upload files to Github.
 
+{: .clear}
 
 ## A nice tool to upload images to Github
 ![Prose.io jekyll editor screenshot]({{ site.url }}/images/how-to-use-prose-io-with-jekyll.jpg)

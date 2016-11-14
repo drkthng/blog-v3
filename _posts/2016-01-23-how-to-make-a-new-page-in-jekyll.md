@@ -22,6 +22,8 @@ Jekyll themes do not come with all the bells and rings. You have to add whatever
 Many times you may want a home page which do not show list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.
 
 
+{: .clear}
+
 ## Let's create a html page in Jekyll
 
 Before creating one, you have to decide how it should be. Because you already have layouts which you can use. Usually you will have a ```default``` layout, ```page``` layout and a ```post``` layout files inside ```_layouts``` folder.

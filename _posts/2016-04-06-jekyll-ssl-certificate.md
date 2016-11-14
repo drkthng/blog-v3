@@ -22,6 +22,7 @@ SSL (Secure Socket Layer) basically provides a secure connection between the cli
 
 On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So by using SSL you can improve your website ranking and your users will feel safe and trust the product or service you are providing.
 
+{: .clear}
 
 ## Why I'm not using SSL on this Jekyll blog?
 ![Jekyll and GitHub pages https](/images/nallikayi-articles-github-pages-ssl.jpg)

@@ -16,6 +16,7 @@ Understanding Jekyll is really important to manipulate the options available to 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
 
 ## Basics before implementation
 

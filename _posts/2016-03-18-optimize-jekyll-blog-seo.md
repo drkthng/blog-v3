@@ -20,13 +20,15 @@ I used WordPress for a long time. If you ask me which one among WordPress and Je
 
 It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast, and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much when I'm supposed to discuss Jekyll SEO?
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them. 
 
 I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
  
  
-* Do not remove this line (it will not be displayed) 
-{:toc}
+
  
 ## What is required in a Jekyll website for SEO?
 

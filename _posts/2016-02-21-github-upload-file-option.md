@@ -13,12 +13,10 @@ permalink: /github-upload/
 Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
 
 
-<div class="clear"></div>   
-
-
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
 
 ## Why this update is crucial?
 

@@ -22,6 +22,7 @@ I had no hopes on this blog either. But I tried my best to deliver the content t
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
 
 ## Adsense on subdomain
 The first problem I faced was applying for Adsense using a subdomain. My subdomain ```blog.webjeda.com``` cannot be used to applying for Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non-compliant with Adsense policies. Say some adult content or content related to drugs?

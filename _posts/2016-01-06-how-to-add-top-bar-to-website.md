@@ -14,7 +14,7 @@ permalink: /top-bar-website/
 {: .clear}
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. I also used to have a top bar on this blog but after the new design I no longer use it. But, one of my blogs [Nallikayi](http://nallikayi.com){:target="_blank"} has a nice top bar which goes with the design.
 
-<div class="clear"></div>   
+
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
