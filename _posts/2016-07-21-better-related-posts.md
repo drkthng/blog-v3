@@ -22,12 +22,14 @@ Related posts help you decrease the bounce rate(percentage of visitors to a part
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{% include adsense-inside-post.html %}
+
 ## What's wrong with Jekyll **related_posts** ?
 As I have discussed in my [earlier post](/related-post-jekyll/){: target="_blank"} ``site.related_posts`` should be called ``site.recent_posts`` because it just shows 10 recent posts. Your recent posts can be on a different category but, this variable doesn't recognize that. I was looking for a better way to solve this issue. 
 
 A possible solution was to look for posts with matching category or tag. This will make sure the related posts are actually related. To make it even better we are comparing more categories or tags. If they match then those posts will show up.
 
-{% include adsense-inside-post.html %}
+
 
 ## Pre-requisites
 Assigning categories or tags is the first step in using this method of extracting related posts. You should categorize all your posts into few topics. If you are not sure how to use tags or categories then please refer to [How to use Jekyll categories](/jekyll-categories/){: target="_blank"}. Proceed to other next only after this.
