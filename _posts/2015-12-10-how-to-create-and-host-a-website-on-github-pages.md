@@ -76,7 +76,7 @@ It is also a good idea to make gh-pages branch as default branch since we will b
 
 <div class="tips clear">
 <h3>Update</h3>
-<p> Now you can use any branch to host as a website. Just use the option **Source** in GitHub Pages section and select the branch you want to host as a website! </p>
+<p> Now you can use any branch to host as a website. Just use the option <strong>Source</strong> in GitHub Pages section and select the branch you want to host as a website! </p>
 </div>
 
 
