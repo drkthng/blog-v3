@@ -18,6 +18,8 @@ This is just an example in the case of a blog. Websites can be of different kind
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{% include adsense-inside-post.html %}
+
 ## How to implement a search bar on Jekyll
 As per the title, I should be discussing the easiest one but I will introduce other search options as well. You may be expecting a search engine with instant results or auto complete capability. That depends on the website. It is good if a website with location search bar has an auto-complete option because users may enter all kinds of spelling mistakes. Auto-complete avoids all those mistakes from happening.
 
@@ -32,7 +34,7 @@ So without further due let's get into the types.
 
 ### Google CSE (free) - [Demo](/search){: target="_blank"}
 
-{% include adsense-inside-post.html %}
+
 
 
 All are good and may fulfill most of your 'search' needs. But installation is a little tricky for some of them. You may have to include a ``JavaScript`` file, create a ``JSON`` file, style your own search box etc.
