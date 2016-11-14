@@ -12,7 +12,11 @@ I'm not proud of using a smartphone to read articles on the bed. But this is a h
 
 ![Dark mode](/images/reading-at-night-on-smartphone-dark-mode.jpg)
 
+
 There are [apps](https://redgadgets.com/protect-eyes-from-computer/){: target="_blank"} that you can use to reduce the light. A better option is to have a dark theme. Apps like Reddit already has this option. Maybe they know their users are nocturnal!
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
 
 ## How to create a dark mode?
 When I thought of this problem, I knew JavaScript can do it but [I'm a noob in JS](https://js.webjeda.com){: target="_blank"}. I don't really create my own script. I copy from some pre-existing script and make changes as I like.
