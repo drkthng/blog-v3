@@ -23,6 +23,8 @@ I have used a similar kind of TOC on my blog. At least it looks similar! So here
 
 Table of Contents for Jekyll blog or any blog for that matter is not really necessary if the article is very short. But, for a long detailed article, a TOC section provides a good insight.
 
+{: .clear}
+
 ## How to add TOC for Jekyll posts?
 
 There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"} for Jekyll to generate TOC but, I have stayed away from them for one reason. I want the complete control on my website.
