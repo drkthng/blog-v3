@@ -22,6 +22,8 @@ A typical user of the 21st century doesn't want to waste his/her time staring at
 
 On April 2010, [Google announced](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html){:rel='nofollow'}{:target="_blank"} that they are including website speed as one of the signals in their search ranking algorithms. So for a better ranking in search engines, you should make your website load faster. And also for e-commerce websites, speed is very crucial. Let us look at some of the adverse effects of slow website load time.
 
+{: .clear}
+
 **1. One second delay in loading cost for Amazon is $1.6B sales each year!**
 
 **2. A study by Walmart showed that every second of improvement in their website loading time would increase conversion by 2%.**
