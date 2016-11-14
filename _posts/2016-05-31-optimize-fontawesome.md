@@ -31,13 +31,14 @@ Imagine how fast the icons will load! After implementing this, my website scored
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{% include adsense-inside-post.html %}
 
 ## How can we optimize font awesome?
 Basic idea is to edit the font file to make it as small as possible. Removing unwanted glyphs will reduce the size drastically. But we should analyze our website to make sure we note down all the font awesome icons that are in use.
 
 Removing unused glyphs reduced the ``woff`` file size from 90KB to 8.5KB. This size depends on how many icons you need. The size increase with the increase in the number of icons. Removing unwanted css from ``fontawesome.min.css`` reduced the size to 2KB from 30KB. The overall size of font awesome after optimizing is around 11KB!
 
-{% include adsense-inside-post.html %}
+
 
 ### Step 1: Localize Font awesome
 We cannot edit font served from CDN. So we should use font awesome locally. [Download fontawesome](http://fontawesome.io/#modal-download){: target="_blank" rel="nofollow"} here. Remove the font awesome CDN link from the head tag if you are using it. Go to http://fontawesome.io/ and download the latest version of fontawesome. Unzip and keep it in the website repository. In our case, the root of the repository.
