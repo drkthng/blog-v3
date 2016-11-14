@@ -14,8 +14,6 @@ permalink: /custom-domain-github/
 Having a third-party domain like ```username.github.io``` is fine. But having a unique domain name adds credibility to your product or service. It is also important for SEO. Search engines always a domain name rather a free subdomain obtained from a third-party website. So buy a domain name, it doesn't cost much and it can help you build a brand in the long run.
 {: .clear}
 
-<div class="clear"></div>   
-
 
 * Do not remove this line (it will not be displayed) 
 {:toc}

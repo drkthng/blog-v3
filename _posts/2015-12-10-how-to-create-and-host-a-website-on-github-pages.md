@@ -17,6 +17,8 @@ I have been using Github Pages since 2012. It was a hard nut for me when I start
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
+
 ## Why Github pages
 
 ### 1. It is free:
