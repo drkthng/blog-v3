@@ -14,9 +14,14 @@ Liquid Syntax is an open-source template language created by Shopify. Jekyll use
 
 For a beginner, this might look like an alien programming which doesn't resemble any of the programming languages that he/she may have seen before.
 
-{% include toc.html %}
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
+
 
 But I assure you that it is probably the simplest and comprehensive language that I have seen so far. Take this snippet for example,
+
+<div class="clear"></div>
 
 {% highlight liquid %}{% raw %}
 {% if age >= 18 %}
