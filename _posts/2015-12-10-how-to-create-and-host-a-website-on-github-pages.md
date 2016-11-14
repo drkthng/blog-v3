@@ -1,5 +1,5 @@
 ---
-title: How to Cheat Hosting services by Freely Hosting Websites on Github!
+title: Everything You Need to know about Hosting Websites on Github!
 desc: Learn how to create and host a website on Github and host it for free using Github Pages. This can be used to host your projects and portfolio websites easily without spending a dime. You can also use this to host personal website on github.
 keywords: create a website on github, github pages website, host website on github, github web hosting
 author: sharathdt
@@ -72,6 +72,13 @@ Your repository will have the **master branch** by default. You should create a 
 
 It is also a good idea to make gh-pages branch as default branch since we will be using this branch for all the proceeding steps. To do that go to **Settings >> Branches >> set gh-pages as default brach**.
 {: .clear }
+
+
+<div class="tips clear">
+<h3>Update</h3>
+<p> Now you can use any branch to host as a website. Just use the option **Source** in GitHub Pages section and select the branch you want to host as a website! </p>
+</div>
+
 
 ## Step3: Create simple html file
 

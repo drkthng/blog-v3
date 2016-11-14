@@ -25,6 +25,9 @@ Now, the box has several compartments in it. One of those is a **live** compartm
 
 The **box** is GitHub, the **live compartment** is Github Pages and legos is your code. When you put a website code (html, css, js) in Gihub Pages, website gets hosted!
 
+With the new update, GitHub allows us to host any branch as a GitHub page!
+{: .g}
+
 Many web developers are not familiar with Github. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
 
 Read my tutorial on [how to host a website on github.](/create-host-website-github-pages/){:rel='dofollow'}
