@@ -87,7 +87,7 @@ Try navigating to some other page and come back. This box will still be dark!
 
 {% include adsense-inside-post.html %}
 
-This uses sessionStorage to pull that off. If you close the browser and open this link again, you'll see that the box goes back to default background.
+This uses sessionStorage. If you close the browser and open this link again, you'll see that the box goes back to default background.
 
 I have used this in my new theme [Hagura](http://webjeda.com/hagura/){: target="_blank"}. 
 
