@@ -118,7 +118,9 @@ a.donate:hover{
 
 
 <pre>
+<code>
 <h2 style="line-height: 1">2016</h2>
+
 28th September - Layout changes, reduced redundant code.
 
 26th August - Removed popup subscribe box as Google is going to punish intrusive mobile popups.
@@ -142,5 +144,5 @@ a.donate:hover{
 13th April - Added Table of Contents.
 
 28th March - Removed emerald theme and self-designed the website.
-
+</code>
 </pre>
