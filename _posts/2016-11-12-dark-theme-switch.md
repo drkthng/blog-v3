@@ -77,7 +77,7 @@ After searching through StackOverflow and MDN, I came up with a working code.
 
 ## sessionStorage to switch theme
 
-Here is the same box which switches its color but retains even if you refresh the page! Actually, it refreshes once you click on it. 
+Here is the same box which not only switches its color but also retains it even if you refresh the page! Actually, it refreshes once you click on it. 
 
 Try navigating to some other page and come back. This box will still be dark!
 
