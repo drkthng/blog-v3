@@ -1,6 +1,6 @@
 ---
 title: Night Mode Toggle Across the Website!
-desc: Changing background color to dark helps reading under low light. This can be achieved easily using javascript. But here is a way to do it across the website.
+desc: Changing background color to darker one helps reading under low light. This can be achieved easily with JS. But making it to remember the change across the site is a little tricky. Here is a way to do it.
 author: sharathdt
 tags: Web-Design
 image: toggle-night-mode.png
