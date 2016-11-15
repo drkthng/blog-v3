@@ -19,7 +19,7 @@ I have created this blog to help **web designers** to get started in the right w
 
 I built WebJeda in 2015. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
 
-As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed, ranking on search engines etc. I have discussed these aspects extensively in this blog.
+As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed, ranking on search engines. I have discussed these aspects extensively in this blog.
 {: .g}
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
