@@ -294,4 +294,11 @@ Front Matter: [http://jekyllrb.com/docs/frontmatter/](http://jekyllrb.com/docs/f
 
 Templates: [http://jekyllrb.com/docs/templates/](http://jekyllrb.com/docs/templates/)
 
+
+A video guide here
+
+<iframe class="video" src="https://www.youtube.com/embed/q0OP81HDQzE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
 {% include table.html %}
