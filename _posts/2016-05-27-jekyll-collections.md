@@ -1,5 +1,5 @@
 ---
-title: 3 Easy steps to implement Jekyll Collections
+title: Jekyll Collections in 3 Easy steps!
 desc: Jekyll collections is something that isn't understood by many. For example, a collection of stamps, books, cakes etc. It is very easy to create and organize multiple collections on a Jekyll blog.
 keywords: 
 author: sharathdt
