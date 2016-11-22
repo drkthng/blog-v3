@@ -331,11 +331,11 @@ background-color: #34495e;
 
 .form-post {
     background: #349add;
-    border-radius: 4px;
-    padding: 1em 1em 3em 1em;
+    padding: 3em 1em 5em 1em;
     text-align: center;
+    box-shadow: 0 0 19px #aaa;
     @include media-query($on-palm) {
-        padding: 0.5em 0.5em 1em 0.5em;
+        padding: 2em 0em;
     }    
 }
 
@@ -351,12 +351,15 @@ background-color: #34495e;
 .form-post .sub-arrow {
     background: none;
     border: 0;
-    color: #333;
+    color: $brand-color;
     font-size: 120%;
     cursor: pointer;
     position: relative;
     left: -30px;
     top: 2px;
+    &:hover{
+       color: #0a5; 
+    }
 }
 
 
