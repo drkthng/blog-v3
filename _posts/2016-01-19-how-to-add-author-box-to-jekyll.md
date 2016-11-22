@@ -1,5 +1,5 @@
 ---
-title: Multiple Author to Jekyll for Guest Posting
+title: Jekyll Multiple Authors for Guest Posting.
 desc: Adding multiple authors to a Jekyll blog was hard. But not anymore. Learn how to add an author box to your Jekyll blog with these easy steps. You can also create a nice author section for your Jekyll blog using this method.
 keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author section
 author: sharathdt
