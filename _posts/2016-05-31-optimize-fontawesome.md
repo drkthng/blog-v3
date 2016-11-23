@@ -89,6 +89,29 @@ This file is your new web font ``woff`` that should be used inside fonts folder.
 
 Test the website again to check whether all the icons are loading(they should) and push changes. This can be further optimized by converting the font to base64 and hence reducing one more request!
 
+
+## Update!
+A user [egurelli](https://disqus.com/by/egurelli/){:rel='nofollow'}{:target="_blank"} suggested some easier ways to optimize fontawesome. I think **IcoMoon** is a great way to do it. You can also choose from some really good icon packages apart from Fontawesome.
+
+### Select Fontawesome Package
+Log on to ``https://icomoon.io/app/`` and select **Add Icons From Library…**. Find Fontawesome and click on **Add**. You will be redirected to a selection window. 
+
+![IcoMoon Fontawesome customize](/images/icomoon-fontawesome-1.PNG)
+
+You can also select multiple icon packages. This makes IcoMoon highly customizable font generator.
+
+![IcoMoon Fontawesome customize](/images/icomoon-fontawesome-2.PNG)
+
+### Select Icons
+In this window, select all the icons you want by clicking on them. Once you are done, click on **Generate Font** at the bottom.
+
+![IcoMoon Fontawesome customize](/images/icomoon-fontawesome-3.PNG)
+
+### Download the font
+IcoMoon will show the icons that are selected and gives you an option to download these icons as a font file. The zip file will contain all the necessary files like ``svg``, ``eot``, ``woff`` etc., along with a css file ``style``.
+
+Keep these files at the root of the website and link the ``style.css`` file in head tag. If you are in doubt then check the ``demo.html`` file which is included in the downloaded font package.
+
 ## Conclusion
 You may use Bootstrap, Font awesome or any similar web font in your website. But make sure you optimize them to use only things that are necessary. Every byte you save, every request you reduce improves page speed by milliseconds. Even a single millisecond improvement in page speed matters. 
 
