@@ -24,95 +24,19 @@ As a web designer, one has to give attention to **appearance**, **performance**,
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
-All the stuff on my blog is free. All I ask my users is to whitelist my domain. That's the only way I have monetized it. I promise the readers that there will not be any annoying ads.
+I suggest you to use an Adblock if you don't like those **Download pdf**, **Click to Download** kind of ads. As a reader, I don't like ads. Let me know whether I should keep Adsense running on this website.
 {: .r}
-
-I also accept donations.
+I accept donations. But, one dollar only. 
 
 <a target="_blank" class="donate" href="https://www.paypal.me/webjeda/1">Donate</a>
 <br />
 <style>
-a.donate:hover{
-   color: #fff;
-}
-.donate {
-	background-color: #3bb3e0;
-    width: 150px;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 12px;
-    text-decoration: none;
-    color: #fff;
-    position: relative;
-    margin-top: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) );
-    -webkit-border-bottom-right-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
-}
-
-.donate:active {
-    top: 0px;
-    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(62,184,229)), color-stop(1, rgb(44,160,202)) );
-    -webkit-box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-    -moz-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
-    -o-box-shadow: 0px 2px 0px 1px #156785, 0px 5px 3px #999;
-    box-shadow: inset 0px 4px 1px #0b698b, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-}
-
-.donate::before {
-	background-color: #fff;
-    background-image: url(/img/heart.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    content: "";
-    width: 148px;
-    height: 40px;
-    position: absolute;
-    top: -30px;
-    left: 0px;
-    margin-top: -11px;
-    z-index: -1;
-    border: 1px solid #eee;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.donate:active::before {
-	top: -33px;	
-	box-shadow: 0px 3px 0px #ccc;
-}
+a.donate:hover{color:#fff}.donate{background-color:#3bb3e0;width:150px;display:inline-block;font-family:'Open Sans',sans-serif;text-align:center;font-size:12px;text-decoration:none;color:#fff;position:relative;margin-top:40px;padding-bottom:10px;padding-top:10px;background-image:linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-o-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-moz-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-webkit-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-ms-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#2ca0ca),color-stop(1,#3eb8e5));-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;-webkit-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;-moz-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;-o-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999}.donate:active{top:0;background-image:linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-o-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-moz-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-webkit-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-ms-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#3eb8e5),color-stop(1,#2ca0ca));-webkit-box-shadow:inset 0 4px 1px #0b698b,0 2px 0 0 #156785,0 5px 3px #999;-moz-box-shadow:0 2px 0 1px #156785,0 5px 3px #999;-o-box-shadow:0 2px 0 1px #156785,0 5px 3px #999;box-shadow:inset 0 4px 1px #0b698b,0 2px 0 0 #156785,0 5px 3px #999}.donate::before{background-color:#fff;background-image:url(/img/heart.gif);background-repeat:no-repeat;background-position:center center;content:"";width:148px;height:40px;position:absolute;top:-30px;left:0;margin-top:-11px;z-index:-1;border:1px solid #eee;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}.donate:active::before{top:-33px;box-shadow:0 3px 0 #ccc}
 </style>
 
-
+<br />
+<br />
 **There are a number of ways to reach out to me, a few are in the footer.**
-
-
-**Disclaimer:** This website is under constant modification. If you find something isn't right then feel free to report.
 
 ## Major changes
 
