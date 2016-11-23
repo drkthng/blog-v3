@@ -569,17 +569,19 @@ div#footer-icons {
 
 ul.contact-ul {
     padding: 10px;
+    width: 100%;
 }
 
 .contact-li {
     list-style: none;
+    margin-top: 1em;
 }
 
 .contact-input {
     border:none;
     border-bottom: 1px solid #eee;
     transition-duration: 0.3s;
-    width: 12em;
+    width: 100%;
 }
 
 .contact-input:focus {
@@ -608,6 +610,7 @@ ul.contact-ul {
     border: 1px solid #aaa;
     display: inline-flex;
     margin-bottom: 6em;
+    width: 100%;
 }
 
 .fixed-link-box {
