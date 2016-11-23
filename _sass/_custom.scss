@@ -680,12 +680,13 @@ img.emoji {
 
 #author-pic {
     border-radius: 50%;
-    width: 60px;
+    width: 194px;
     position: relative;
-    margin: 0 0.5em 0 0;
-    top: 25px;
+    margin: 0 0.9em 0 0;
+    top: 15px;
     @include media-query($on-palm) {
-        top: 10px;
+        width: 80px;
+        margin: 0 0.5em 0 0;
         float: left;
     }
 }
