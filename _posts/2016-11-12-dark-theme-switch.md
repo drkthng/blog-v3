@@ -95,33 +95,34 @@ I have used this in my new theme [Hagura](http://webjeda.com/hagura/){: target="
 Here is the code I have used to make this happen.
 
 {% highlight javascript %}
-function theme() {
-     if ( data === 'rgb(255, 255, 255)') {
+document.body.style.backgroundColor = sessionStorage.getItem('bg');
+document.body.style.color = sessionStorage.getItem('cc');
+function darker() {
+     if ( sessionStorage.getItem('bg') === 'rgb(255, 255, 255)') {
          
-        sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
-        sessionStorage.setItem('cc', '#777');
-        document.location.reload();
-
+            sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
+            sessionStorage.setItem('cc', '#777');
+            
+         
      }
-    else if (data == null || undefined) {
+    else if (sessionStorage.getItem('bg') == null || undefined) {
         sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
         sessionStorage.setItem('cc', '#777');
-        document.location.reload();
+        
     }
-    else if( data === 'rgb(6, 23, 37)') {
+    else if( sessionStorage.getItem('bg') === 'rgb(6, 23, 37)') {
         
         sessionStorage.setItem('bg', 'rgb(255, 255, 255)');
         sessionStorage.setItem('cc', '#333');
-        document.location.reload();
+        
   
     }
 
-};
+document.body.style.backgroundColor = sessionStorage.getItem('bg');
+document.body.style.color = sessionStorage.getItem('cc');
 
-var data = sessionStorage.getItem('bg');
-var color = sessionStorage.getItem('cc');
-document.body.style.backgroundColor = data;
-document.body.style.color = color;
+}
+
 {% endhighlight %}
 
 This for me looks way too long to do such a simple job. But as I told before I'm a novice JavaScript coder. I coded it to get the work done. I think it can be improved. 
