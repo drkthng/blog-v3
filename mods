@@ -14,3 +14,19 @@ Advanced SEO - Disqus sync local - use staticman
 {% endraw %}
 
 {{ site.pages[0].title }}
+
+
+Youtube subscribe button
+https://developers.google.com/youtube/youtube_subscribe_button
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCbOO7d0vVo0kIrkd7m32irg" data-layout="full" data-count="hidden"></div>
+
+
+
+Only subscribe
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCbOO7d0vVo0kIrkd7m32irg" data-layout="default" data-count="hidden"></div>

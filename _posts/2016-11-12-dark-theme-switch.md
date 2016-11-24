@@ -142,7 +142,12 @@ Thanks for reading!
 <script>
 function dark(){"rgb(255, 255, 255)"==document.getElementById("dark-div").style.backgroundColor?(document.getElementById("dark-div").style.backgroundColor="#333",document.getElementById("dark-div").style.color="#fff"):(document.getElementById("dark-div").style.backgroundColor="rgb(255, 255, 255)",document.getElementById("dark-div").style.color="#333")};
 </script>
-<script>
+<!-- <script>
 function darker(){"rgb(255, 255, 255)"===data?(sessionStorage.setItem("bg","rgb(51, 51, 51)"),sessionStorage.setItem("cc","#fff"),document.location.reload()):null==data?(sessionStorage.setItem("bg","rgb(51, 51, 51)"),sessionStorage.setItem("cc","#fff"),document.location.reload()):"rgb(51, 51, 51)"===data&&(sessionStorage.setItem("bg","rgb(255, 255, 255)"),sessionStorage.setItem("cc","#333"),document.location.reload())}var data=sessionStorage.getItem("bg"),color=sessionStorage.getItem("cc");
 document.getElementById("dark-div-2").style.backgroundColor=data;document.getElementById("dark-div-2").style.color=color;
+</script> -->
+
+<script>
+document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc");function darker(){"rgb(255, 255, 255)"===sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):null==sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):"rgb(6, 23, 37)"===sessionStorage.getItem("bg")&&(sessionStorage.setItem("bg","rgb(255, 255, 255)"),sessionStorage.setItem("cc","#333"));document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc")}
+;
 </script>
