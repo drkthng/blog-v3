@@ -77,7 +77,7 @@ After searching through StackOverflow and MDN, I came up with a working code.
 
 ## sessionStorage to switch theme
 
-Here is the same box which not only switches its color but also retains it even if you refresh the page! Actually, it refreshes once you click on it. 
+Here is the same box which not only switches its color but also retains it even if you refresh the page!
 
 Try navigating to some other page and come back. This box will still be dark!
 
@@ -128,9 +128,9 @@ This for me looks way too long to do such a simple job. But as I told before I'm
 
 **1.** It needs to be simple. If you observe the code, there is a lot of repetitive values which can be minimized.
 
-**2.** It should not refresh. The changed color will not apply unless the page is refreshed. This is an inconvenience. I hope this can be solved by someone who knows JS.
+**2.** <strike>It should not refresh. The changed color will not apply unless the page is refreshed. This is an inconvenience. I hope this can be solved by someone who knows JS.</strike>
 
-Even though the page gets refreshed, it will come back to the same scroll location. Because I'm using ``document.location.reload();``
+I figured it out. Now the color switches without refresh!
 
 ## Conclusion
 Though it isn't perfect yet, I think it can be used to implement theme switching or any other change that is supposed to happen across the website. 
@@ -142,11 +142,6 @@ Thanks for reading!
 <script>
 function dark(){"rgb(255, 255, 255)"==document.getElementById("dark-div").style.backgroundColor?(document.getElementById("dark-div").style.backgroundColor="#333",document.getElementById("dark-div").style.color="#fff"):(document.getElementById("dark-div").style.backgroundColor="rgb(255, 255, 255)",document.getElementById("dark-div").style.color="#333")};
 </script>
-<!-- <script>
-function darker(){"rgb(255, 255, 255)"===data?(sessionStorage.setItem("bg","rgb(51, 51, 51)"),sessionStorage.setItem("cc","#fff"),document.location.reload()):null==data?(sessionStorage.setItem("bg","rgb(51, 51, 51)"),sessionStorage.setItem("cc","#fff"),document.location.reload()):"rgb(51, 51, 51)"===data&&(sessionStorage.setItem("bg","rgb(255, 255, 255)"),sessionStorage.setItem("cc","#333"),document.location.reload())}var data=sessionStorage.getItem("bg"),color=sessionStorage.getItem("cc");
-document.getElementById("dark-div-2").style.backgroundColor=data;document.getElementById("dark-div-2").style.color=color;
-</script> -->
-
 <script>
 document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc");function darker(){"rgb(255, 255, 255)"===sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):null==sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):"rgb(6, 23, 37)"===sessionStorage.getItem("bg")&&(sessionStorage.setItem("bg","rgb(255, 255, 255)"),sessionStorage.setItem("cc","#333"));document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc")}
 ;
