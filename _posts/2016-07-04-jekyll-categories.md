@@ -1,6 +1,6 @@
 ---
 title: 3 Simple steps to setup Jekyll Categories and Tags
-desc: Implementing Jekyll categories is tricky without using any plugin. But I have a step by step guide. You can implement Jekyll categories on your website by following these simple steps. 
+desc: Implementing Jekyll categories without using any plugin is tricky. But here is a simle step by step guide to do it. You can implement Jekyll categories or Jekyll tags on your blog by following these simple steps. 
 keywords: 
 author: sharathdt
 image: jekyll-categories.png
@@ -34,6 +34,7 @@ Let's see how we can implement it.
 ### Add Jekyll Categories to Front matter
 This is the first step in any method to implement Jekyll Categories or Jekyll Tags. Decide what categories you want. It is better to have fewer categories. As shown in the example below, add ``categories:`` front matter to all the posts according to their content.
 
+Let's imagine there are 3 posts in your blog. One is personal, one is tech and another is a mixed post. Here you can organize them into two categories - **personal** and **tech**. Now, add these categories to all the posts.
 
 Post 1:
 
@@ -67,7 +68,7 @@ categories: [Tech, Personal]
 ---
 {% endhighlight %}
 
-Let's imagine there are 3 posts in your blog. One is personal, one is tech and another is a mixed post. Here you can organize them into two categories - **personal** and **tech**. Now, add these categories to all the posts.
+
 
 <div class="note">
     <h3>Categories count</h3>
@@ -112,7 +113,7 @@ title: Categories
 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 717 526.5"><style>.a{fill:none;stroke:#414042;}.b{fill:none;stroke:#000;}.c{fill:#00AEEF;}.d{fill:none;stroke-width:5;stroke:#F1F2F2;}.e{fill:none;stroke:#808285;}.f{fill:#FFF;}</style><metadata class="undefined"><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/" class="undefined"><sliceSourceBounds width="700.5" height="504.8" y="-1.7" x="49.6" bottomLeftOrigin="true" class="undefined"/></sfw></metadata><path d="M9.1 515.4V35.8c0-13.7 11.1-24.7 24.7-24.7H683.8c13.7 0 24.7 11.1 24.7 24.7V515.4" class="a"/><line x1="8.5" y1="514.5" x2="708" y2="514.5" class="b"/><rect x="34.5" y="61.9" width="648.6" height="426" class="a"/><rect x="34.5" y="61.9" width="648.6" height="118.2" class="c"/><line x1="340.6" y1="102.7" x2="612.7" y2="102.7" class="d"/><line x1="340.6" y1="143.5" x2="542.6" y2="143.5" class="d"/><rect x="228.4" y="28.2" width="453.8" height="19.3" class="e"/><text transform="matrix(1 0 0 1 50.9819 243.7363)" class="undefined"><tspan font-family="'Helvetica'" font-size="12" letter-spacing="33" class="c"/><tspan x="36" font-family="'Helvetica'" font-weight="bold" font-size="36" class="c">  Categories</tspan></text><text transform="matrix(1 0 0 1 136.9819 307.7363)" class="undefined"><tspan font-family="'Helvetica'" font-size="21" class="undefined">  Personal</tspan><tspan y="16.8" font-family="'Helvetica'" font-size="14" font-weight="bold" letter-spacing="33" class="undefined"/><tspan x="36" y="16.8" font-family="'Helvetica'" font-size="14" class="c">  My ways to live life.</tspan><tspan y="33.6" font-family="'Helvetica'" font-size="14" letter-spacing="33" class="c"/><tspan x="36" y="33.6" font-family="'Helvetica'" font-size="14" class="c">  New tech to organize your daily tasks.</tspan></text><text transform="matrix(1 0 0 1 136.9819 383.7363)" class="undefined"><tspan font-family="'Helvetica'" font-size="21" class="undefined">  Tech</tspan><tspan y="16.8" font-family="'Helvetica'" font-size="14" font-weight="bold" letter-spacing="33" class="undefined"/><tspan x="36" y="16.8" font-family="'Helvetica'" font-size="14" class="c">  Top innovations in technology.</tspan><tspan y="33.6" font-family="'Helvetica'" font-size="14" letter-spacing="33" class="c"/><tspan x="36" y="33.6" font-family="'Helvetica'" font-size="14" class="c">  New tech to organize your daily tasks.</tspan></text><text transform="matrix(1 0 0 1 74.9819 143.46)" font-family="'Helvetica'" font-size="72" font-weight="bold" class="f">  WJ</text></svg>
-{: .half .right}
+
 
 The page will look like this. It will have all the categories listed out. One article can be listed in many categories. This happens when you use more than one category for a post.
 
