@@ -12,7 +12,7 @@ news-alt: vyaasa jekyll theme
 
 
 # Site settings
-title: WebJeda | A modern web development blog
+title: WebJeda Blog | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
 url: https://blog.webjeda.com
 enforce_ssl: blog.webjeda.com
@@ -94,3 +94,8 @@ amazon:
     
     
 gems: [jekyll-paginate, jemoji, jekyll-seo-tag, jekyll-admin]
+
+review: 
+    place-id: ChIJx113w8QUuzsR_3IiWBPrucE
+    link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
+    short-link: https://goo.gl/fAcxe9
