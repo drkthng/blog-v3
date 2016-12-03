@@ -174,9 +174,9 @@ Every request a webpage makes will take a considerable amount of time in establi
 **Use Data-URI instead of images:**
 Every image in a website is generally loaded using a http request. In order to avoid this, an image can be converted into base-64 code which looks like this.
 
-<pre>
+{% highlight html %}
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z
-</pre>
+{% endhighlight %}
 
 If you are wondering what this is, then copy the code and paste it into your browsers address bar. It is actually the small footer bar I have used on this website which will look like the image below.
 
