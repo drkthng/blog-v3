@@ -126,13 +126,13 @@ If you do not know SASS then you can use this trick which does the same job.
 <li><p>Rename all the <code>.css</code> files into <code>.scss</code>and place them in a folder <code>_sass</code>. You have to create one of you do not have it already. It should look something like this. 
 </p></li>
 
-<pre>
+{% highlight html %}
 .
 .
 ├── _sass
 |   ├── css-1.scss
 |   └── css-2.scss
-</pre>
+{% endhighlight %}
 
 * Make a folder called ``css`` in the root and create a file and name it ``main.scss``
 
@@ -262,10 +262,10 @@ The best example for using SVGs successfully in a website is [varvy.com](https:/
 
 SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
 
-![webjeda blog](/images/webjeda.svg){: .inline .left .small .noborder}
+![webjeda blog](/images/webjeda.svg){: .noborder}
 
 
-![webjeda blog](/images/webjeda.jpg){: .inline .small .noborder}
+![webjeda blog](/images/webjeda.jpg){: .noborder}
 
 Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
 

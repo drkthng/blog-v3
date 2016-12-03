@@ -39,11 +39,11 @@ Place this html file inside your ```_layout``` folder.
 ### Step 3: Add front matter to default layout
 Open ```default.html``` in ```_layouts``` folder and copy the below front matter at the top of the page. If you do not have ```default.html``` then use a top level layout which is used in all pages.
 
-<pre>{% raw %}
+{% highlight html %}{% raw %}
 ---
 layout: compress
 ---
-{% endraw %}</pre>
+{% endraw %}{% endhighlight %}
 
 The ```default.html``` should look something like this after copying the code
 

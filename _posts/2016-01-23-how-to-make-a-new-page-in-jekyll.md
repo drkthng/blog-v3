@@ -48,17 +48,17 @@ create a new file in the root of repository and call it **about.md**
 
 ### Step 2: Add YAML front matter
 YAML(Yet Another Markup Language) lies at the top of the page inside three dashes.
-<pre>
+{% highlight html %}
 {% raw %}
 ---
 YAML front matter
 ---
 {% endraw %}
-</pre>
+{% endhighlight %}
 Inside it you can define few properties for your page like which layout it should use, which permalink to use, which title to use etc.,
 Here is my about page. You can copy the same code below but change the content as per your needs.
 
-<pre>
+{% highlight html %}
 {% raw %}
 ---
 layout: page
@@ -78,7 +78,7 @@ If you find something isn't right then,
 I might be doing some change in the back-end.
 
 {% endraw %}
-</pre>
+{% endhighlight %}
 
 This ```about.md``` page will be rendered as ```about.html``` by the time it builds the site out of your repo. So the link would be
 ```http://blog.webjeda.com/about.html```.
@@ -95,13 +95,13 @@ You can also achieve this without permalinks. Just create a folder in the root w
 
 A plain HTML inside Jekyll can have a front matter as shown below which defines not to use any layout or you can use no front matter at all.
 
-<pre>
+{% highlight html %}
 {% raw %}
 ---
 layout: null
 ---
 {% endraw %}
-</pre>
+{% endhighlight %}
 
 If you have visited my [feed page](/feed.xml){:rel='dofollow'}{:target="_blank"}, you will see that it is different from all other pages. I just have plain HTML inside it. 
 
@@ -130,13 +130,13 @@ The fun part about layouts is that you can have your own layout and you can use 
 
 So whenever you create a new plain HTML page, you don't have to include title, head and body. Just write the code and use
 
-<pre>
+{% highlight html %}
 {% raw %}
 ---
 layout: blank
 ---
 {% endraw %}
-</pre> 
+{% endhighlight %}
 
 and Jekyll will keep the HTML code inside the ```blank``` template where {% raw %}{{ content }}{% endraw %} is defined!
 

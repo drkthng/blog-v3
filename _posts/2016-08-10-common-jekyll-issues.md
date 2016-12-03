@@ -187,11 +187,11 @@ But what you wanted to show was this
 
 So in order to use Liquid Syntax, you should use {&#x0025; raw &#x0025;} and {&#x0025; endraw &#x0025;} like this,
 
-<pre>
+{% highlight yml %}
 {&#x0025; raw &#x0025;}<br />
 {% raw %}{{ page.title }}{% endraw %}<br />
 {&#x0025; endraw &#x0025;}
-</pre>
+{% endhighlight %}
 
 When you use these tags, the code is shown as it is without executing it.
 
