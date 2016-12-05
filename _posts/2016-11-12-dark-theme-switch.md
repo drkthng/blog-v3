@@ -13,7 +13,7 @@ I'm not proud of using a smartphone to read articles on the bed. But this is a h
 ![Dark mode](/images/reading-at-night-on-smartphone-dark-mode.jpg)
 
 
-There are [apps](https://redgadgets.com/protect-eyes-from-computer/){: target="_blank"} that you can use to reduce the light. A better option is to have a dark theme. Apps like Reddit already has this option. Maybe they know their users are nocturnal!
+There are [apps](https://redgadgets.com/protect-eyes-from-computer/){: target="_blank"} that you can use to reduce the light. A better option is to have a dark theme. Reddit already has this option. Maybe they're aware of their being nocturnal!
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
