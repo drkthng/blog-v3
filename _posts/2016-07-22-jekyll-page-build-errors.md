@@ -1,5 +1,5 @@
 ---
-title: Here Comes New Ideas for Handling Page Build Errors!
+title: Page Build Errors on Jekyll?! - Solve them!
 desc: Page build errors are very common even for an experienced developer because there are many things that can go wrong with Jekyll or Github Pages. I have discussed a better way to deal with those errors here.
 author: sharathdt
 tags: Github-Pages Jekyll 
