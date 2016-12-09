@@ -48,7 +48,7 @@ If you would like to learn how to host a website on GitHub first then read: [How
 
 ## Why not WordPress?
 
-WordPress is the most famous CMS by the time I'm writing this article. WordPress is convenient if you are not good at coding. You can find plugins for every single functionality. But you will soon realize that the blog becomes slower and slower upon adding plugins. As per my observation, WordPress adds a  lot of code for a simple function.
+WordPress is the most famous CMS by the time I'm writing this article. WordPress is convenient if you are not good at coding. You can find plugins for every single functionality. But you will soon realize that the blog becomes slower and slower upon adding plugins. As per my observation, WordPress adds a  lot of code even for a simple function.
 
 Also for this blog, a minimalistic WordPress theme would have done the job, but I wanted something that can load faster. I found Jekyll at the right time. Jekyll being a static-site generator - is a lot faster and very secure. It uses few templates over and over on all the posts and pages which make the designing part sleek. If you are a web designer then you can make your own design like how I did with my blog.
 
@@ -241,7 +241,7 @@ When you are editing Jekyll blog locally, you can make changes and see how it re
 
 ### What do you need to run Jekyll locally?
 
-As I said in the introduction, Jekyll is written in Ruby. So you should have Ruby installed on your computer. And you will also be using some Ruby gems like Jekyll(obviously), pagination, jemoji etc., Gems add certain functionality to your Jekyll blog.
+As I said in the introduction, Jekyll is written in Ruby. So you should have Ruby installed on your computer. And you will also be using some Ruby gems like Jekyll(obviously), pagination, jemoji etc., Gems add certain functionalities to your Jekyll blog.
 
 Pagination used to be included in Jekyll but, after Jekyll 3.0 it is no more included. You have to manually install pagination gem.
 
@@ -292,12 +292,14 @@ Now your computer is ready to install Jekyll. Make a folder on your computer wit
 
 * Enter ``jekyll serve`` to serve it locally so that you can browse the blog through a browser. Your blog will be available on ``http://localhost:4000`` by default.
 
-You can make any changes you like to the Jekyll site. Jekyll polls for any changes that you make. It may take a few seconds depending on the size and complexity of your blog. For a faster build, use ``jekyll serve --incremental`` which polls only for changed files. Use it with caution since it is has some problems.
+You can make any changes you like to the Jekyll site. Jekyll polls for any changes that you make. It may take a few seconds depending on the size and complexity of your blog. For a faster build, use ``jekyll serve --incremental`` which polls only for changed files. Use it with caution since it is has some strange behaviour.
 
 This is how I created my Jekyll blog. Once you are done designing your blog, you should push these changes to a repository. To learn how to push changes to Github, read: [How to sync files and folders to Github](/sync-files-folders-github/){:target="_blank"}.
 
 ## Conclusion
-There are many things that you can do over Jekyll but there are limitations as well. Since the blog is static, there is no server side execution possible. So your contact form which uses a ``php`` file may not work in Jekyll. 
+You can do a lot of things on Jekyll but, there are limitations as well. Since the blog is static, there is no server side execution possible. So your contact form which uses a ``php`` file may not work in Jekyll. 
+
+Read: [How to create a Jekyll contact form](https://blog.webjeda.com/jekyll-contact-form/){:target="_blank"}
 
 I suggest you to try Jekyll and see if you can get all the functionalities you wanted in your blog. Initially, I was skeptical about podcasting on Jekyll but today I have a [podcast](http://nallikayi.com){:target="_blank"} successfully hosted using Jekyll.
 
@@ -305,11 +307,11 @@ Follow this blog to know what you can do with your Jekyll blog. I try to cover m
 
 To know more about Jekyll, read:  [A layman's guide to Jekyll](/jekyll-guide/){:target="_blank"}.
 
-<iframe itemscope="" itemprop="video" id="video" class="right half video" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
-
 If you have any doubts or if you couldn't set up your Jekyll blog then please leave your question in the comments. I will try to sort it out for you.
 
 Here is a video demonstration on how to create Jekyll blog. And, once you create a blog, don't forget to leave its link, in the comment section.
+
+<iframe itemscope="" itemprop="video" id="video" class="right half video" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Thanks for reading!
 {: .clear}
