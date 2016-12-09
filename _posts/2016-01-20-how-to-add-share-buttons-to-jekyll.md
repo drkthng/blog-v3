@@ -157,9 +157,15 @@ I have styled the buttons with the following css. You can change it for your nee
 }
 {% endhighlight %}
 
+
 Currently, I'm using this share bar for my blog. You will see a share bar at the end of this article,  which uses the same code.
 
 ![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
+
+## Fontawesome is huge!
+Fontawesome takes a lot of time to load because it will be loading all the icons in its CSS. A good way to avoid this loading delay is to optimize fontawesome to load only the icons you need. 
+
+Read: [Optimize Font Awesome to ridiculously low size of 10KB!](https://blog.webjeda.com/optimize-fontawesome/){:target="_blank"}
 
 So this is how you can implement css-only and JavaScript free WebJeda share bar. The onclick attribute is actually JavaScript but I think that doesn't delay the load of share buttons in any manner because it loads only when you click on it. And also it is used only to create a pop up. You can leave that part if you do not want to create a pop up. If you were able to implement this on your blog then please leave a link in the comment.
 
