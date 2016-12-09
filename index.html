@@ -8,13 +8,13 @@ layout: default
           {{ include_to_scssify | scssify }}
   </style> 
 
-{% if site.news == true %}
+
    <div class="news">
     <a {{site.onclick}} href="{{site.news-link}}" target="_blank">
-        <img class="news-img" src="{{site.news-image}}" alt="{{site.news-alt}}">
+        New theme released!<!-- <img class="news-img" src="{{site.news-image}}" alt="{{site.news-alt}}"> -->
     </a>
 </div>
-{% endif %}
+
 
 <div class="preface mt2">
     <div class="precont">
