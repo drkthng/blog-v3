@@ -20,8 +20,6 @@ If you read a lot over the internet then you know how hard it is to share an art
 
 It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the link but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website and sometimes it may go viral. So it is necessary to provide an option to share.
 
-{: .clear}
-
 
 ## How to add a social media share bar?
 
@@ -161,6 +159,12 @@ I have styled the buttons with the following css. You can change it for your nee
 Currently, I'm using this share bar for my blog. You will see a share bar at the end of this article,  which uses the same code.
 
 ![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
+
+
+Here's the demo: [http://webjeda.com/webjeda-sharebar/](http://webjeda.com/webjeda-sharebar/)
+
+Source code: [https://github.com/sharu725/webjeda-sharebar](https://github.com/sharu725/webjeda-sharebar)
+
 
 ## Fontawesome is huge!
 Fontawesome takes a lot of time to load because it will be loading all the icons in its CSS. A good way to avoid this loading delay is to optimize fontawesome to load only the icons you need. 
