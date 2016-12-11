@@ -749,7 +749,7 @@ section#archive {
     border-bottom: 4px solid $brand-color;
 }
 
-.archive:hover {
+.archived:hover {
     border-bottom: 4px solid #40d47e;
 }
 
@@ -790,7 +790,7 @@ a.btn {
     color: red;
 }
 
-
+/* Youtube video embeds */
 .video {
     width: 100%;
     height: 430px;
@@ -801,7 +801,7 @@ a.btn {
     }
 }
 
-
+/* Related posts - You may also like */
 .rect {
     border-top: 3px solid $grey-color;
     border-bottom: 3px solid $grey-color;
@@ -849,6 +849,24 @@ a.btn {
     }
 }
 
+/* Archive page sections */
+
+.hide {
+    display: none;
+}
+
+
+.pills ul > li{
+    display: inline-block;
+    margin-left: 0.6em;
+
+}
+.pills ul > li a {
+
+}
+li.active a {
+    color: #333;
+}
 
 
 
