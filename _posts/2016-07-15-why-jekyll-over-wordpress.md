@@ -47,7 +47,7 @@ If you have ever visited a WordPress site (I bet you've) you will see something 
 
 ![WordPress Distractions](/images/why-I-hate-wordpress.png){: .noborder}
 
-Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars, many use it as they like screwing up their readers experience.
+Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like screwing up their readers experience.
 
 May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. They may have googled something, found your website link, clicked on it for help. You should be lucky that they landed on your website because there at least 10 different websites offering the same content. If they like what you write then they definitely will subscribe.
 
