@@ -355,7 +355,7 @@ a.page-num:hover {
 }
 
 
-i{
+i.share-button {
     border: none;
     box-shadow: 0 0 1px $grey-color;
     transition: .3s ease-out;
@@ -385,52 +385,52 @@ i{
 }
 
 .fa-facebook-official {
-    color: #3b5998;
+    color: #3b5998; 
 }
-.fa-facebook-official:hover {
+.share-button.fa-facebook-official:hover {
     background-color: #3b5998;
     color:white;
 }
 
-.fa-google-plus {
+.share-button.fa-google-plus {
     color: #d34836;
 }
-.fa-google-plus:hover {
+.share-button.fa-google-plus:hover {
     background-color: #d34836;
     color: white;
 }
 
 
-.fa-linkedin {
+.share-button.fa-linkedin {
     color: #0077b5;
 }
-.fa-linkedin:hover {
+.share-button.fa-linkedin:hover {
     background-color: #0077b5;
     color: white;
 }
 
-.fa-envelop {
+.share-button.fa-envelop {
     color: #444444;
 }
-.fa-envelope:hover {
+.share-button.fa-envelope:hover {
     background-color: #444444;
     color: white;
 }
 
 
-.fa-reddit {
+.share-button.fa-reddit {
     color: #ff5700;
 }
-.fa-reddit:hover {
+.share-button.fa-reddit:hover {
     background-color: #ff5700;
     color: white;
 }
 
 
-.fa-twitter {
+.share-button.fa-twitter {
     color: #4099FF;
 }
-.fa-twitter:hover {
+.share-button.fa-twitter:hover {
     background-color: #4099FF;
     color: white;
 }
