@@ -8,7 +8,7 @@ Why struggle here? Find the complete website source: https://github.com/sharu725
 <html lang="en-US">
 {% include head.html %}
 <body> 
-        
+
                         
      <div id="top"></div>
             {% include header.html %}
@@ -38,8 +38,7 @@ Why struggle here? Find the complete website source: https://github.com/sharu725
         t.parentNode.insertBefore(font2, t);
       })();
 </script>
- {% if site.analytics == 'no' %}{% else %}
- {% include analytics.html %}
-{% endif %}
+
+ {% include google-tag-manager-body.html %}
   </body>
 </html>
