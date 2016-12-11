@@ -131,6 +131,12 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 </div>
 
 
+<div class="note">
+<h3>Update</h3>
+<p>Disqus comments are now indexed by Google! Try searching a unique comment(found on any article of this blog) on google and you should get the post link on search results.</p>
+</div>
+
+
 <div id="step4"></div><br />
 
 ### Step 4: Making use of Jekyll templates
