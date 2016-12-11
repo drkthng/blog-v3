@@ -49,7 +49,10 @@ If you have ever visited a WordPress site (I bet you've) you will see something 
 
 Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like screwing up their readers experience.
 
-May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. They may have googled something, found your website link, clicked on it for help. You should be lucky that they landed on your website because there at least 10 different websites offering the same content. If they like what you write then they definitely will subscribe.
+May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. 
+{ .y}
+
+The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. They may have googled something, found your website link, clicked on it for help. You should be lucky that they landed on your website because there at least 10 different websites offering the same content. If they like what you write then they definitely will subscribe.
 
 These days with all those spam emails cluttering my inbox, I don't like to give up my email address to anyone. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing. I ended up subscribing to his blog without any such intervensions.
 
