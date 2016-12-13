@@ -17,7 +17,7 @@ My name is Sharath and I'm the author of this blog. I had no plans to turn this 
 
 I have created this blog to help **web designers** to get started in the right way. Most of my content is on **Jekyll** blogging platform which can be used as a **website builder**!
 
-I built WebJeda in 2015. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
+I built WebJeda in 2014. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
 
 As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog.
 {: .g}
@@ -42,6 +42,7 @@ a.donate:hover{color:#fff}.donate{background-color:#3bb3e0;width:150px;display:i
 <pre>
 <code>
 <h2 style="line-height: 1">2016</h2>
+13th December  - Changed menu style to Hamburger.
 
 28th September - Layout changes, reduced redundant code.
 

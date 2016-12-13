@@ -12,86 +12,10 @@
     margin: 0;
 }
 
+
 .site-header {
- padding-left: 2em;
- padding-bottom: 0em;
- padding-top: 0.625em;
- padding-right: 1em;    
-}
+    margin-bottom: 7em;
 
-
-
-.site-nav {
-    display: inline-block;
-    z-index: 999;
-   
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        font-family: $head-font-family;
-        color: #828282;
-        font-size: 1.2em;
-        font-weight: 100;
-        line-height: $base-line-height;
-        padding: 5px;
-        margin-right: 0.625em;
-
-}
-
-    .page-link:hover{
-           color: #333;           
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 1em;
-        right: 1em;
-        background-color: $background-color;
-        border: 1px solid #4183D7;
-        border-radius: 4px;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: #4183D7;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-/*             &:not(:last-child) {
-                margin-right: 0;
-            } */
-            margin-left: 20px;
-        }
-    }
 }
 
 .page-content {
@@ -246,10 +170,16 @@ img#foomage {
 
 
 img#logo  {
-    margin-top: 0.625em;
+/*     margin-top: 0.625em;
     margin-right: 2em;
     vertical-align: initial;
-    margin-bottom: 0;
+    margin-bottom: 0; */
+    position: absolute;
+    top: 47px;
+    left: 54px;
+    @include media-query($on-palm){
+        left: 20px;
+    }
 }
 
 
