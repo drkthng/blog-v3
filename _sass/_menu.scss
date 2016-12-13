@@ -62,7 +62,8 @@
     top: 47px;
     right: 54px;
     cursor: pointer;
-     transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 99;
     @include media-query($on-palm){
         right: 30px;
     }
