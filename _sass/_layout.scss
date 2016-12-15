@@ -140,10 +140,9 @@ img.post-image-index {
 }
 
 .post-excerpt {
-    font-family: $head-font-family;
     font-size: 1em;
     margin-bottom:0;
-    color: #8C8C8C;
+    color: $grey-color;
     margin-top: 0.5em;
         
 }
@@ -359,3 +358,12 @@ background-color: #34495e;
   border-top: 3px solid #3498db;
 }
 
+
+.meta-data {
+    margin: 0;
+    font-size: 1em;
+}
+
+.post-link-index {
+    color: $grey-color;
+}

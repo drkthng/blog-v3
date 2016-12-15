@@ -76,6 +76,9 @@ layout: default
                 <div class="card-footer">
                     <h6 itemprop="headline" class="post-index-title">{{ post.title }}</h6>
                      <div itemprop="keywords" class="home-tag"><span>{{ post.tags | first | strip }}</span></div>
+                     <p class="meta-data">
+                     {{ post.date | date: '%B %d, %Y' }} ・ <a href="{{ post.url | prepend: site.url }}index.html#disqus_thread"></a>
+                     </p>
                     <p itemprop="description" class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
                </div>
            
@@ -126,3 +129,4 @@ layout: default
    }
 }
 </script>
+<script id="dsq-count-scr" src="//webjeda.disqus.com/count.js" async></script>
