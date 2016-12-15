@@ -78,8 +78,10 @@
     font-size: 16vh;
     font-weight: 800;
     font-family: "Times New Roman", Times, serif;
+    width: 80%;
+    margin: 0 auto;
     &:hover {
-        color: #3b7e86;
+        color: rgba(6, 6, 6, 0.56);
     }
     @include media-query($on-palm){
         font-size: 10vh;
