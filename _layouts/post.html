@@ -28,8 +28,8 @@ window.onscroll = function()
             <div class="time-auth">
             <time datetime="{{ page.date | date: '%Y-%m-%d'}}" class="by-line" >{{ page.date | date: '%Y %B %d' }}</time>&nbsp;&nbsp;&nbsp;
             <span class="post-view" id="ga-pageviews"></span>&nbsp;&nbsp;&nbsp;
-            {% include post-tags.html %}
-            
+            {% include post-tags.html %}&nbsp;&nbsp;&nbsp;
+            <a href="{{ page.url | prepend: site.url }}#disqus_thread" data-disqus-url="{{ page.url | prepend: site.url }}"></a>
             </div> 
    	
             <div itemprop="articleBody" class="content" >
