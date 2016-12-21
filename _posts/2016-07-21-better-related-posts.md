@@ -22,6 +22,8 @@ Related posts help you decrease the bounce rate(percentage of visitors to a part
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+{: .clear}
+
 {% include adsense-inside-post.html %}
 
 ## What's wrong with Jekyll **related_posts** ?
