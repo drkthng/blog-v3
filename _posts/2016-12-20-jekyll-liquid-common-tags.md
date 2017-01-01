@@ -336,7 +336,7 @@ Source: [https://jekyllrb.com/docs/variables/](https://jekyllrb.com/docs/variabl
 {% include adsense-inside-post.html %}
 
 If you think that any frequently used Jekyll variable is missing then do let me know in the comments.
-<script src="http://listjs.com/assets/javascripts/list.min.js"></script>
+<script src="//listjs.com/assets/javascripts/list.min.js"></script>
 <script>
 var options = {
   valueNames: [ 'variable', 'output' ]
