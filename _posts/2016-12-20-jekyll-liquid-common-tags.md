@@ -329,9 +329,11 @@ input:focus {
 </div>
 <br />
 <br />
-<br />
+
 
 Source: [https://jekyllrb.com/docs/variables/](https://jekyllrb.com/docs/variables/)
+
+{% include adsense-inside-post.html %}
 
 If you think that any frequently used Jekyll variable is missing then do let me know in the comments.
 <script src="http://listjs.com/assets/javascripts/list.min.js"></script>
