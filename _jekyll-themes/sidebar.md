@@ -84,4 +84,5 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the Apache 2.0 license.
 
 [**Demo**]({{page.link}}){: .btn }
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
 [**Download**]({{page.dlink}}){: .btn .red }

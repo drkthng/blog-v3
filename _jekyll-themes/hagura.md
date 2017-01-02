@@ -61,4 +61,5 @@ MIT License
 * Initial release with a reader-friendly layout.
 
 [**Demo**]({{page.link}}){: .btn }
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
 [**Download**]({{page.dlink}}){: .btn .red }

@@ -58,4 +58,5 @@ MIT License
 * Initial release with a responsive card-friendly layout.
 
 [**Demo**]({{page.link}}){: .btn }
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
 [**Download**]({{page.dlink}}){: .btn .red }

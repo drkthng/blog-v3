@@ -68,4 +68,5 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 Read [LICENSE](https://raw.githubusercontent.com/sharu725/slides/master/LICENSE.md)
 
 [**Demo**]({{page.link}}){: .btn }
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
 [**Download**]({{page.dlink}}){: .btn .red }

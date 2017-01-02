@@ -52,4 +52,5 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 MIT License
 
 [**Demo**]({{page.link}}){: .btn }
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
 [**Download**]({{page.dlink}}){: .btn .red }
