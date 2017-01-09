@@ -17,7 +17,7 @@ I see a lot of blogs providing useful information on Github pages and Jekyll. Bu
 
 
 ## What is Github?
-Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not a sufficient explanation then consider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
+Github is a Version Control System. It keeps your data and tracks all the changes you make to it. If that is not a sufficient explanation then consider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
 
 But at this point you realize that the house was nicer than this bridge. Thanks to **box** that it remembers the exact way how you built the house. So in no time you can get back to the house model. 
 
@@ -34,7 +34,7 @@ Read my tutorial on [how to host a website on github.](/create-host-website-gith
 and then [sync a complete website using this tutorial](/sync-files-folders-github/){:rel='dofollow'}.
 
 
-Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshot below
+Making it simpler has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few of the feedbacks are in the screenshot below
 ![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg){: .full}
 
 Check out the playlist at the bottom to see more comments.
@@ -59,7 +59,7 @@ I hope you are wondering why **Sublime text** is not included in the list. I use
 Github Pages is comparably faster than conventional web hosting services for static websites. But, Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
 
-Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs using Jekyll. Actually, this blog is completely generated using Jekyll! It is very stable. Uptime of the websites depends on Github Servers. As an established company, Github is always up. I have not faced any major issue so far. I think years ago my blogs were down for few seconds.
+Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs using Jekyll. Actually, this blog is completely generated using Jekyll! It is very stable. Uptime of the websites depends on Github Servers. As an established company, Github is always up. I have not faced any major issues so far. I think years ago, one time, my blogs were down for a few seconds.
 
 <iframe itemscope="" class="left half video" itemprop="video" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
