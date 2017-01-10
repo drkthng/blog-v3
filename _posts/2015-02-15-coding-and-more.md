@@ -10,14 +10,14 @@ layout: post
 
 
 ## Why teach Github Pages :octocat: ?
-While I was learning Github Pages, I used to go through YouTube videos. But there was not a single guy who teaches it without using Command Line Interface(CLI). When we run a command on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies, and a correct PATH variable etc. For starters, CLI is a hard nut to crack. So wanted to make it easier and decided not use CLI in my videos. Everything is done through GUI .
+While I was learning Github Pages, I used to go through YouTube videos. But there was not a single guy who teaches it without using Command Line Interface(CLI). When we run a command on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies, and a correct PATH variable etc. For starters, CLI is a hard nut to crack. So I wanted to make it easier and decided not use CLI in my videos. Everything is done through GUI .
 
 
-I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs, i want to provide step by step instructions for everything without missing a single point. This is what I expect from a blog or a documentation. So that is what I follow.
+I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs, I want to provide step by step instructions for everything without missing a single point. This is what I expect from a blog or a documentation. So that is what I follow.
 
 
 ## What is Github?
-Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not a sufficient explainayion then condider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
+Github is Version Control System. It keeps your data and tracks all the changes you make to it. If that is not a sufficient explanation then consider this example. Let's say there is a **box**. Initially you keep **lego blocks** in it. Then after some time you take the help of your friend and make a house out of those blocks and keep it back in the box and after several days you break the house and build a bridge out of it and keep it in the box.
 
 But at this point you realize that the house was nicer than this bridge. Thanks to **box** that it remembers the exact way how you built the house. So in no time you can get back to the house model. 
 
