@@ -194,10 +194,10 @@ This is how we host a project website or blog. In github, we have two types of h
 
 Here is a table for better understanding of User Pages and Project Pages.
 
-| Type of GitHub Pages site  | Domain/Host location  | Publishing branch  |
-|----------------------------|-----------------------|--------------------|
-| User Pages                 | username.github.io    |   master           |
-| Project Pages              | username.github.io/projectname | gh-pages  |
+| Type of GitHub Pages site  | Domain/Host location  | Publishing branch  | baseurl |
+|----------------------------|-----------------------|--------------------|---------|
+| User Pages                 | username.github.io    |   master           | username.github.io |
+| Project Pages              | username.github.io/projectname | gh-pages  | projectname |
 {: .mdtable}
 
 <p></p>
