@@ -41,12 +41,11 @@ Once I installed my css-only share bar, the request number dropped to 11! That w
 When I was preparing this share bar, I was facing problems with sharing the page I'm currently browsing. Let's say you are in the page ``article-1``, the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/article-1/```. And if you are in the page ``article-2``, then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/article-2/```.
 
 
-![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.png)
-
-
 But how to make this change of URL for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables** - the ```{% raw %}{{ stuff }}{% endraw %}``` inside double curly braces!
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](/create-jekyll-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
+
+![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.png)
 
 Check all the Jekyll [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}.
 
@@ -69,7 +68,7 @@ This is the key to my WebJeda Sharebar.
 
 ## How to implement WebJeda share bar?
 
-Create a new ```html``` file inside **_includes** folder and call it share.html. Copy paste this code.
+Create a new ```html``` file inside **_includes** folder and call it **share.html**. Copy paste this code.
 
 {% highlight html %}{% raw %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -108,7 +107,7 @@ Create a new ```html``` file inside **_includes** folder and call it share.html.
 </div>
 {% endraw %}{% endhighlight %}
 
-I have used icons from **font awesome** which is better idea than loading icons from local files.
+I have used icons from **font awesome** which is better than loading icons from local files.
 
 Now copy this line inside your post layout file which will be inside the **_layouts** folder. You have to place this line wherever you want the share bar to appear on your posts.
 
