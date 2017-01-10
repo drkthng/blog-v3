@@ -68,7 +68,7 @@ This is the key to my WebJeda Sharebar.
 
 ## How to implement WebJeda share bar?
 
-Create a new ```html``` file inside **_includes** folder and call it share.html. Copy paste this code.
+Create a new ```html``` file inside **_includes** folder and call it **share.html**. Copy paste this code.
 
 {% highlight html %}{% raw %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
